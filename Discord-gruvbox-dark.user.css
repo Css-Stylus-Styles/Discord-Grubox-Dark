@@ -711,8 +711,8 @@ button.button_afdfd9 /* small buttons */,
 	--bg-mod-subtle:#fb4934 !important;
 	--bg-surface-overlay:#fb4934 !important;
 	--bg-surface-overlay-tmp:#fb4934 !important;
-	--bg-surface-raised:#fb4934 !important; */
-
+	--bg-surface-raised:#fb4934 !important;
+ */
     
 /*     --black: #f57d26 !important;
 	--blur-fallback:#faedcd !important;
@@ -726,7 +726,7 @@ button.button_afdfd9 /* small buttons */,
     
     
     
-/* 	--button-creator-revenue-background:#fb4934 !important;
+/* 	--button-creator-revenue-background:#b8bb26 !important;
 	--button-danger-background: #fb4934 !important;
 	--button-danger-background-active:#fb4934 !important;
 	--button-danger-background-disabled:#fb4934 !important;
@@ -774,8 +774,8 @@ button.button_afdfd9 /* small buttons */,
 	--button-secondary-background: #fb4934 !important;
 	--button-secondary-background-active:#fb4934 !important;
 	--button-secondary-background-disabled:#fb4934 !important;
-	--button-secondary-background-hover:#fb4934 !important;
-     */
+	--button-secondary-background-hover:#fb4934 !important; */
+    
     
     
     
@@ -902,9 +902,9 @@ button.button_afdfd9 /* small buttons */,
 	--mention-foreground: #fbf1c7 !important;
     
     
-    
-	--modal-background:#98971a !important;
-	--modal-footer-background: #79740e !important;
+/*  On borading experince bg     */
+	--modal-background:#1d2021 !important;
+	--modal-footer-background: #98971a !important;
     
     
 /* 	--navigator-header-tint: #9d0006 !important; */
@@ -920,23 +920,23 @@ button.button_afdfd9 /* small buttons */,
     
     
     
-	--profile-gradient-card-background: #98971a !important;
-	--profile-gradient-message-input-border: #98971a !important;
-	--profile-gradient-note-background:#98971a !important;
-	--profile-gradient-overlay: #98971a !important;
+/* 	--profile-gradient-card-background: #8ec07c !important;
+	--profile-gradient-message-input-border: #8ec07c !important;
+	--profile-gradient-note-background:#8ec07c !important;
+	--profile-gradient-overlay: #8ec07c !important;
 	--profile-gradient-overlay-synced-with-user-theme: #98971a !important;
 	--profile-gradient-profile-body-background-hover:#f00 !important;
 	--profile-gradient-role-pill-background:#98971a !important;
-	--profile-gradient-role-pill-border:#98971a !important;
+	--profile-gradient-role-pill-border:#8ec07c !important;
 	--profile-gradient-section-box:#f00 !important;
 	--redesign-activity-card-background:#f00 !important;
 	--redesign-activity-card-background-pressed: #f00 !important;
 	--redesign-activity-card-badge-icon:#f00 !important;
 	--redesign-activity-card-border: #f00 !important;
 	--redesign-activity-card-overflow-background:#f00 !important;
-	--redesign-button-danger-background: #98971a !important;
+	--redesign-button-danger-background: #b8bb26 !important;
 	--redesign-button-danger-pressed-background: #98971a !important;
-	--redesign-button-danger-text: #f00 !important;
+	--redesign-button-danger-text: #f00 !important; */
 
     
     
@@ -1072,9 +1072,9 @@ button.button_afdfd9 /* small buttons */,
 	--white: #98971a !important;
  */
     
-/*      */gradient upper and lower limit 
-	--profile-gradient-primary-color: #16181a !important;;
-	--profile-gradient-secondary-color:#1d2021 !important;;
+/*  gradient upper and lower limit     */
+	--profile-gradient-primary-color: #16181a !important;
+	--profile-gradient-secondary-color:#1d2021 !important;
 
     
     
@@ -1095,8 +1095,8 @@ button.button_afdfd9 /* small buttons */,
 	--green-360: var(--accent-3);
 	--green-430: var(--accent-4);
 	--green-500: var(--accent-4);
-	--green-530: var(--accent-5); */
-
+	--green-530: var(--accent-5);
+ */
 
     
     
