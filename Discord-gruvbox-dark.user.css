@@ -801,9 +801,16 @@ button.button_afdfd9 /* small buttons */,
 /*  Channel names color     */
 	--channels-default:#d5c4a1 !important;
     
-	--channeltextarea-background:#16181a !important;
-    
 	
+/* Channel input area 	 */
+
+	div.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a{
+		
+		background-color : #1a1b1d !important ; 
+		border : solid #f2e5bc !important ; 
+		border-width: 1px !important ; 
+		border-radius: 23px !important ; 
+	}
 
    
     
@@ -841,10 +848,10 @@ button.button_afdfd9 /* small buttons */,
     
     
     
-/*      Names of people     */
-	--header-primary: #fe8019 !important;
+/*      Names of people  And server names    */
+	--header-primary: #98971a !important;
 /*Reply of some one   and header of the channel      */
-	--header-secondary:  #b8bb26 !important;
+	--header-secondary:  #fabd2f !important;
     
     
 /* 	--home-background: #98971a !important;
@@ -853,8 +860,8 @@ button.button_afdfd9 /* small buttons */,
 	--icon-primary:  #458588 !important;
 	--icon-secondary:  #458588 !important; */
     
-/*     
-	--info-box-background: #cc241d !important;
+    
+/* 	--info-box-background: #cc241d !important;
 	--info-danger-background:  #98971a !important;
 	--info-danger-foreground: #98971a !important;
 	--info-danger-text: #98971a !important;
@@ -868,33 +875,32 @@ button.button_afdfd9 /* small buttons */,
 	--info-warning-foreground: #fbf1c7 !important;
 	--info-warning-text: #98971a !important;
 	--input-background: #98971a !important;
-	--input-placeholder :#cc241d !important;
-     */
+	--input-placeholder :white  !important; */
     
     
     
-/* side bar channel names       */
+    
+/* CACtive channel -> shopw which channel you are using right now     */
 	--interactive-active:  #b8bb26 !important;
     
-/*      hover    */
-	--interactive-hover:  #f57d26 !important;
+/*      hover  when you hover over channel   */
+	--interactive-hover:  #b8bb26 !important;
     
 /* Chanenl thread line      */
 	--interactive-muted:  #fe8019 !important;
-/*  All main Icons */
-    --interactive-normal:  #689d6a !important;
+
+	/*  All main Icons */
+    --interactive-normal:  #fb4934 !important;
     
-/* 	--legacy-android-blur-overlay-default:  #b8bb26 !important;
-	--legacy-android-blur-overlay-ultra-thin:  #458588 !important; */
+
 	
     
     
-/*     --legacy-blur-fallback-default:#fabd2f !important;
-	--legacy-blur-fallback-ultra-thin: #98971a !important;
-	--live-stage-tile-border: hsl:#98971a !important; */
+
     
     
-	--logo-primary: #cc241d !important;
+/* 	Not sure */
+	--logo-primary: #98971a !important;
     
     
 /*  MENTION names   */
@@ -907,6 +913,12 @@ button.button_afdfd9 /* small buttons */,
 		border-radius: 12px !important; 
 		
 	}
+	
+/*HIghlight mention when some oen is mentioned in the server  */
+	div.message__80c10.cozyMessage__64ce7.mentioned__58017.wrapper__09ecc.cozy_f5c119.zalgo__39311{
+		background-color : #282828 !important ; 
+	}
+	
 	
 	
 
