@@ -13,85 +13,124 @@
 
 
 
+:root{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
     
-    :root {
---bg0-dh: #1d2021;
---bg1-dark: #3c3836;
---bg-dark: #282828;
---bg2-dark: #504945;
---bg3-dark: #665c54;
---bg4-dark: #7c6f64;
---bg5-dark: #928374;
---bg_visual: #503946;
---bg_red: #cc241d;
---bg_green: #98971a;
---bg_blue: #458588;
---bg_yellow: #d79921;
---shadow: #16181a;
---shadow-var1: #17191b;
---shadow-cur: #1a1b1d;
---fg-dark: #ebdbb2;
---grey0-dark: #7f897d;
---grey1-dark: #859289;
---grey2-dark: #9aa79d;
---faded-red: #fb4934;
---faded-orange: #fe8019;
---faded-yellow: #fabd2f;
---faded-green: #b8bb26;
---faded-aqua: #8ec07c;
---faded-blue: #83a598;
---faded-purple: #d3869b;
---dim-red: #cc241d;
---dim-orange: #d65d0e;
---dim-yellow: #d79921;
---dim-green: #98971a;
---dim-aqua: #689d6a;
---dim-blue: #458588;
---dim-purple: #b16286;
---bg0-light: #f0edd8;
---bg1-light: #f6f1dd;
---bg-light: #fdf6e3;
---bg2-light: #f3efda;
---bg3-light: #edead5;
---bg4-light: #e4e1cd;
---bg5-light: #dfdbc8;
---grey0-light: #a4ad9e;
---grey1-light: #939f91;
---grey2-light: #879686;
---shadow-light: #3c474d20;
---text-offwhite: #fbf1c7;
---text-offyellowish: #f2e5bc;
---text-white: #f9f5d7;
---text-offwhite-faded: #ebdbb2;
---text--faded: #d5c4a1;
---text--veryfade: #928374;
---bg_visual_light: #eaedc8;
---bg_red_light: #fbe3da;
---bg_green_light: #f0f1d2;
---bg_blue_light: #e9f0e9;
---bg_yellow_light: #faedcd;
---fg-light: #5c6a72;
---light-red: #f85552;
---light-orange: #f57d26;
---light-yellow: #bf983d;
---light-green: #899c40;
---light-aqua: #569d79;
---light-blue: #5a93a2;
---light-purple: #b87b9d;
---light-dim-red: #f1706f;
---light-dim-orange: #f39459;
---light-dim-yellow: #e4b649;
---light-dim-green: #a4bb4a;
---light-dim-aqua: #6ec398;
---light-dim-blue: #6cb3c6;
---light-dim-purple: #e092be;
---dark-red: #9d0006;
---dark-green: #79740e;
---dark-yellow: #b57614;
---dark-blue: #076678;
---dark-purple: #8f3f71;
---dark-aqua: #427b58;
---dark-orange: #af3a03;
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+   
 }
 
     
@@ -682,7 +721,7 @@ button.button_afdfd9 /* small buttons */,
 	--background-mobile-secondary:#fb4934 !important; */
     
 /*  message serperator color   */
-	--background-modifier-accent:#504945 !important;
+	--background-modifier-accent:#79740ec9 !important;
     
     
     
@@ -694,13 +733,27 @@ button.button_afdfd9 /* small buttons */,
 	--background-modifier-selected:#282828 !important;
 	--background-nested-floating: #98971a !important;
 /*      main bg in the chat bg */
-	--background-primary: #1d2021 !important;
+	--background-primary: #1a1b1d !important;
 /* Youtube block and then  other block    */
-	--background-secondary: #1d2021 !important;
+	
+/* Youtube emeddd	 */
+	article.embedWrapper_c143d9.embedFull__8dc21.embed_d3cbe3.markup_a7e664.justifyAuto__70e6c{
+		
+			border: solid #fb4934 !important ; 
+		border-radius: 12px !important ; 
+	}
+	
+	
+	--background-secondary: #fbf1c7 !important;
 /* actual side bar color      */
-	--background-tertiary: #16181a !important;
+/* 	--background-tertiary: #1d2021 !important; */
     
-    
+	
+/* LEft hand most side channel sidebar	 */
+    #app-mount .scroller__3d071 {
+		background-color : #cc241d !important; 
+    padding: 12px 0;
+}
     
 /* 	--bg-backdrop: #98971a !important;
 	--bg-backdrop-no-opacity:#98971a !important;
@@ -712,25 +765,34 @@ button.button_afdfd9 /* small buttons */,
 	--bg-mod-subtle:#fb4934 !important;
 	--bg-surface-overlay:#fb4934 !important;
 	--bg-surface-overlay-tmp:#fb4934 !important;
-	--bg-surface-raised:#fb4934 !important;
- */
+	--bg-surface-raised:white  !important; */
+
     
-/*     --black: #f57d26 !important;
-	--blur-fallback:#faedcd !important;
-	--blur-fallback-pressed:#fb4934 !important;
-	--border-faint: #fb4934 !important;
-	--border-strong:#8ec07c !important;
-	--border-subtle: hsl :#b8bb26 !important;
-	--bug-reporter-modal-submitting-background: #fb4934 !important;
-     */
+
     
     
     
+/* Buttons -> CHeck behaviour over time and correct this 	 */
     
 /* 	--button-creator-revenue-background:#b8bb26 !important;
 	--button-danger-background: #fb4934 !important;
 	--button-danger-background-active:#fb4934 !important;
-	--button-danger-background-disabled:#fb4934 !important;
+	--button-danger-bive-background-active:#fb4934 !important;
+	--button-outline-positive-background-hover:#fb4934 !important;
+	--button-outline-positive-border: #fb4934 !important;
+	--button-outline-positive-border-active: #fb4934 !important;
+	--button-outline-positive-border-hover:#fb4934 !important;
+	--button-outline-positive-text: #fb4934 !important;
+	--button-outline-positive-text-active: #fb4934 !important;
+	--button-outline-positive-text-hover:#fb4934 !important;
+	--button-outline-primary-background:#fb4934 !important;
+	--button-outline-primary-background-active:#fb4934 !important;
+	--button-outline-primary-background-hover:#fb4934 !important;
+	--button-outline-primary-border: #fb4934 !important;
+	--button-outline-primary-border-active:#fb4934 !important;
+	--button-outline-primary-border-hover:#fb4934 !important;
+	--button-outline-primary-text: #fb4934 !important;
+	--button-outline-priackground-disabled:#fb4934 !important;
 	--button-danger-background-hover: #fb4934 !important;
 	--button-outline-brand-background:#fb4934 !important;
 	--button-outline-brand-background-active:#fb4934 !important;
@@ -751,22 +813,7 @@ button.button_afdfd9 /* small buttons */,
 	--button-outline-danger-text-active: #fb4934 !important;
 	--button-outline-danger-text-hover:#fb4934 !important;
 	--button-outline-positive-background:#fb4934 !important;
-	--button-outline-positive-background-active:#fb4934 !important;
-	--button-outline-positive-background-hover:#fb4934 !important;
-	--button-outline-positive-border: #fb4934 !important;
-	--button-outline-positive-border-active: #fb4934 !important;
-	--button-outline-positive-border-hover:#fb4934 !important;
-	--button-outline-positive-text: #fb4934 !important;
-	--button-outline-positive-text-active: #fb4934 !important;
-	--button-outline-positive-text-hover:#fb4934 !important;
-	--button-outline-primary-background:#fb4934 !important;
-	--button-outline-primary-background-active:#fb4934 !important;
-	--button-outline-primary-background-hover:#fb4934 !important;
-	--button-outline-primary-border: #fb4934 !important;
-	--button-outline-primary-border-active:#fb4934 !important;
-	--button-outline-primary-border-hover:#fb4934 !important;
-	--button-outline-primary-text: #fb4934 !important;
-	--button-outline-primary-text-active: #fb4934 !important;
+	--button-outline-positmary-text-active: #fb4934 !important;
 	--button-outline-primary-text-hover:#fb4934 !important;
 	--button-positive-background: #fb4934 !important;
 	--button-positive-background-active: #fb4934 !important;
@@ -781,7 +828,7 @@ button.button_afdfd9 /* small buttons */,
     
     
 /*   cards styles    */
-    
+/*Not sure       */
     
 /* 	--card-gradient-bg:#fabd2f !important;
 	--card-gradient-pressed-bg: #fabd2f !important;
@@ -791,12 +838,13 @@ button.button_afdfd9 /* small buttons */,
 	--card-secondary-pressed-bg:#f00 !important;
      */
     
-/* Channel color icon     */
-	--channel-icon: #af3a03 !important;
+/* Channel color icon  -> Applies to Side bar and channel top bar    */
+	--channel-icon: #79740e !important;
     
     
+/*Not sure  	 */
 /*message in channel #text       */
-	--channel-text-area-placeholder: #79740e !important;
+	--channel-text-area-placeholder: #98971a !important;
     
 /*  Channel names color     */
 	--channels-default:#d5c4a1 !important;
@@ -1054,7 +1102,7 @@ button.button_afdfd9 /* small buttons */,
 	
 
 
-	--status-danger:#d79921 !important;
+	--status-danger:#9d0006 !important;
 
 	--status-danger-background:#cc241d !important;
 
@@ -1147,7 +1195,11 @@ button.button_afdfd9 /* small buttons */,
     
     
     
-    
+    .button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeLarge__9049d.grow__4c8a4 {
+		border-radius: 18px !important ; 
+  color: #d5c4a1 !important; /* Change the text color to red */
+  background-color: #9d0006 !important; /* Change the background color to blue */
+}
     
 /* 	--elevation-low: none;
 	--search-popout-option-fade: none;
