@@ -1018,23 +1018,34 @@ button.button_afdfd9 /* small buttons */,
 	
 	--scrollbar-auto-thumb:#050f05 !important;
 
-	--scrollbar-auto-track: #3c3836;
+	
+	
+	
+	
+/* CHANNEL SCROLL BARS	 */
+	--scrollbar-auto-track: #fbe3da;
 	--scrollbar-thin-thumb:#427b58 !important;
 
-/* user profile color       */
-	--scrollbar-thin-track:#3c3836 !important;
+/* 
+	
+	USER PROFILE SCROLL BAR 
+	*/
+	--scrollbar-thin-track:#16181a !important;
 
     
-/*   spoiler but not being applied    */
-	--spoiler-hidden-background: #d79921 !important;
 
-	--spoiler-revealed-background:#d79921 !important;
+	
+	
+	
+
 
 	--status-danger:#d79921 !important;
 
 	--status-danger-background:#cc241d !important;
 
 	--status-danger-text:#cc241d !important;
+	
+	
 
 /* 	--status-dnd: #98971a !important;
 
@@ -1074,7 +1085,7 @@ button.button_afdfd9 /* small buttons */,
 /*     --text-muted: hsl(50, 50%, 50%) !important;  */
 /* 	--text-muted-on-default: #fabd2f; */
 
-    --text-normal: #f2e5bc !important;
+    
     
     
 /*     
@@ -1090,9 +1101,32 @@ button.button_afdfd9 /* small buttons */,
 	--white: #98971a !important;
  */
     
+	
+	
+	
+
+	
+	
+/*ALL TEXT IN THE APP 	 */
+	--text-normal: #ebdbb2 !important;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* USER ProFILE gradient */
 /*  gradient upper and lower limit     */
-	--profile-gradient-primary-color: #16181a !important;
-	--profile-gradient-secondary-color:#1d2021 !important;
+	--profile-gradient-primary-color: #98971a !important;
+	--profile-gradient-secondary-color:#79740e !important;
 
     
     
