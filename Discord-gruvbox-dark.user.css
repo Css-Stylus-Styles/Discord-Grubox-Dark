@@ -897,10 +897,19 @@ button.button_afdfd9 /* small buttons */,
 	--logo-primary: #cc241d !important;
     
     
-/*   Other People name metio   */
-    
-	--mention-background:#9d0006 !important;
-	--mention-foreground: #fdf6e3 !important;
+/*  MENTION names   */
+	span.mention.wrapper_f46140{
+		 
+	background-color :#16181a !important;
+	color : #fbe3da !important;
+		border: solid #b8bb26 !important ;
+		border-width: 1px !important ; 
+		border-radius: 12px !important; 
+		
+	}
+	
+	
+
     
     
 /*  On borading experince bg     */
@@ -1006,19 +1015,13 @@ button.button_afdfd9 /* small buttons */,
 /* MAIN CHAT SIDE BAR SCROOL BAR	 */
 	--scrollbar-auto-scrollbar-color-thumb:#d5c4a1 !important;
 
-	--scrollbar-auto-scrollbar-color-track: #282828 !important;
+	--scrollbar-auto-scrollbar-color-track: #689d6a !important;
+	
+	
+	
+/* 	 scroll bar */
+	--scrollbar-auto-thumb:#689d6a !important;
 
-	
-	
-	
-	
-	
-	
-	
-	
-	--scrollbar-auto-thumb:#050f05 !important;
-
-	
 	
 	
 	
@@ -1030,7 +1033,7 @@ button.button_afdfd9 /* small buttons */,
 	
 	USER PROFILE SCROLL BAR 
 	*/
-	--scrollbar-thin-track:#16181a !important;
+	--scrollbar-thin-track:#d5c4a1 !important;
 
     
 
