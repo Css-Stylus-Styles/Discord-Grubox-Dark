@@ -135,50 +135,7 @@
 
     
     
-/* }
-    
-       .theme-dark {
-        --background-primary: #1d2021;
-        --background-secondary: #282828;
-        --background-secondary-alt: #1a1b1d;
-        --background-tertiary: #427b58;
-        --background-floating: #16181a;
-        --background-accent: #cc241d;
-        --user-text-color: #8f3f71;
-        --background-message-hover: #282828;
-        --text-normal: #b8bb26;
-        --text-muted: #fabd2f;
-        --channeltextarea-background: #16181a;
-        --background-modifier-accent: rgba(0, 0, 0, 0);
-        --selected: #ffc80036
-    }
 
-    ::-webkit-scrollbar-track,
-    ::-webkit-scrollbar-thumb {
-        display: none !important;
-    }
-
-    .input-2VB9rf,
-    .previewContainer-12UlHl,
-    .tierBody-3aUxuc,
-    .uploadModal-2ifh8j,
-    [class^=bd-addon],
-    [class^=contentWrapper],
-    [class^=focusLock] > *,
-    [class^=modalSize],
-    [class^=pageWrapper],
-    [class^=peopleColumn],
-    [class^=jumpToPresentBar],
-    .container-3wLKDe,
-    .title-31SJ6t {
-        background: var(--dim-red)!important
-    }
-
-    .container-3auIfb {
-        background-color: var(--dim-red) !important;
-    }
-} */
-   
 
 
 
@@ -688,12 +645,19 @@ button.button_afdfd9 /* small buttons */,
 
 .theme-dark {
     
+	
+/*Links hover and more  	 */
     
     a{
         color:#fb4934 !important;
     }
+       a:hover{
+        color:#b8bb26 !important;
+    }
        
-       
+	a:visited {
+		color : #076678 !important ; 
+	}
 
     
     
@@ -709,22 +673,24 @@ button.button_afdfd9 /* small buttons */,
     
     
     
-/* 	--background-mentioned-hover: #16181a !important;
-	--background-message-automod:#16181a !important; */
+	--background-mentioned-hover: #cc241d !important;
+
     
     
-/* 	--background-message-automod-hover:#fabd2f !important;
-	--background-message-highlight: #fe8019 !important;
-	--background-message-highlight-hover:#98971a !important;
-	--background-message-hover: #fe8019 !important;
-	--background-mobile-primary: #fe8019 !important;
-	--background-mobile-secondary:#fb4934 !important; */
+
     
-/*  message serperator color   */
-	--background-modifier-accent:#79740ec9 !important;
+/*  message serperator color -> date serperstalign-contentr   */
+	--background-modifier-accent:#79740eb8 !important;
     
     
     
+	
+	
+	
+	
+	
+	
+	
 /* 	--background-modifier-accent-2:#79740e !important;
 	--background-modifier-active:#b8bb26 !important;
 	--background-modifier-hover: #d5c4a1 !important; */
@@ -732,19 +698,24 @@ button.button_afdfd9 /* small buttons */,
 /*side bar highlighing color       */
 	--background-modifier-selected:#282828 !important;
 	--background-nested-floating: #98971a !important;
-/*      main bg in the chat bg */
+/*      MAIN background color -> Main chat bg color */
 	--background-primary: #1a1b1d !important;
 /* Youtube block and then  other block    */
 	
+	
+	
+	
+	
 /* Youtube emeddd	 */
 	article.embedWrapper_c143d9.embedFull__8dc21.embed_d3cbe3.markup_a7e664.justifyAuto__70e6c{
-		
+		background-color : #f2e5bc !important ; 
+		color : white !important ; 
 			border: solid #fb4934 !important ; 
 		border-radius: 12px !important ; 
 	}
 	
-	
-	--background-secondary: #fbf1c7 !important;
+/* Applies to background of discord waiting screen -> offline screen backgorund color 	 */
+	--background-secondary: #282828 !important;
 /* actual side bar color      */
 /* 	--background-tertiary: #1d2021 !important; */
     
@@ -942,6 +913,11 @@ button.button_afdfd9 /* small buttons */,
     
 
 	
+	
+	
+	
+/*Discord logo hover  	 */
+	--brand-experiment : #79740e !important ; 
     
     
 
@@ -1110,43 +1086,45 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 
-/* 	--status-dnd: #98971a !important;
+	/* 	--status-dnd: #98971a !important;
 
-	--status-idle:#98971a !important;
+		--status-idle:#98971a !important;
 
-	--status-offline:#98971a !important;
+		--status-offline:#98971a !important;
 
-	--status-online: #98971a !important;
+		--status-online: #98971a !important;
 
-	--status-positive:#98971a !important;
+		--status-positive:#98971a !important;
 
-	--status-positive-background:#98971a !important;
+		--status-positive-background:#98971a !important;
 
-	--status-positive-text:#98971a !important;
+		--status-positive-text:#98971a !important;
 
-	--status-speaking:#98971a !important;
+		--status-speaking:#98971a !important;
 
-	--status-warning:#98971a !important;
+		--status-warning:#98971a !important;
 
-	--status-warning-background:#98971a !important;
+		--status-warning-background:#98971a !important;
 
-	--status-warning-text:#98971a !important;
+		--status-warning-text:#98971a !important;
 
-	--text-brand:#98971a !important;
+		--text-brand:#98971a !important;
 
-	--text-danger:#98971a !important;
+		--text-danger:#98971a !important;
 
-	--text-link:#98971a !important;
+		--text-link:#98971a !important;
 
-	--text-link-low-saturation:#98971a !important;
+		--text-link-low-saturation:#98971a !important;
 
-	--text-low-contrast:#98971a !important;
+		--text-low-contrast:#98971a !important;
 
-	--text-message-preview-low-sat: #98971a !important; */
+		--text-message-preview-low-sat: #98971a !important; */
 
+	
+	
 /*date when the message was sent       */
-/*     --text-muted: hsl(50, 50%, 50%) !important;  */
-/* 	--text-muted-on-default: #fabd2f; */
+    --text-muted: #fb4934 !important; 
+	--text-muted-on-default: #cc241d !important;
 
     
     
@@ -1188,8 +1166,8 @@ button.button_afdfd9 /* small buttons */,
 	
 /* USER ProFILE gradient */
 /*  gradient upper and lower limit     */
-	--profile-gradient-primary-color: #98971a !important;
-	--profile-gradient-secondary-color:#79740e !important;
+	--profile-gradient-primary-color: #689d6a !important;
+	--profile-gradient-secondary-color:#306745 !important;
 
     
     
