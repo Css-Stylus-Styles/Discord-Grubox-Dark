@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
@@ -994,11 +995,28 @@ button.button_afdfd9 /* small buttons */,
 	--redesign-only-background-raised: #689d6a !important;
 	--redesign-only-background-sunken: #689d6a !important; */
     
-	--scrollbar-auto-scrollbar-color-thumb:#689d6a !important;
+	
+	
+	
+	
+	
+	
+	
+	
+/* MAIN CHAT SIDE BAR SCROOL BAR	 */
+	--scrollbar-auto-scrollbar-color-thumb:#d5c4a1 !important;
 
-	--scrollbar-auto-scrollbar-color-track: #98971a !important;
-/* scroll bar to the side  */
-	--scrollbar-auto-thumb:#689d6a !important;
+	--scrollbar-auto-scrollbar-color-track: #282828 !important;
+
+	
+	
+	
+	
+	
+	
+	
+	
+	--scrollbar-auto-thumb:#050f05 !important;
 
 	--scrollbar-auto-track: #3c3836;
 	--scrollbar-thin-thumb:#427b58 !important;
@@ -1102,8 +1120,8 @@ button.button_afdfd9 /* small buttons */,
     
     
 /* main styles reinstated here      */
-	--primary-500: #f57d26 !important;
-	--primary-600: #1d2021 !important; 
+	--primary-500: #b8bb26 !important;
+	--primary-600: #dfdbc8 !important; 
 	--primary-630:  #3c3836 !important;
 	--primary-660: #17191b !important;
 }
