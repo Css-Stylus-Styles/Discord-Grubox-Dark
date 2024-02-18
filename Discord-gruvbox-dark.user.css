@@ -680,7 +680,7 @@ button.button_afdfd9 /* small buttons */,
 
     
 /*  message serperator color -> date serperstalign-contentr   */
-	--background-modifier-accent:#79740eb8 !important;
+	--background-modifier-accent:#282828 !important;
     
     
     
@@ -697,7 +697,7 @@ button.button_afdfd9 /* small buttons */,
     
 /*side bar highlighing color       */
 	--background-modifier-selected:#282828 !important;
-	--background-nested-floating: #98971a !important;
+	--background-nested-floating: #FB4934 !important;
 /*      MAIN background color -> Main chat bg color */
 	--background-primary: #1a1b1d !important;
 /* Youtube block and then  other block    */
@@ -868,7 +868,7 @@ button.button_afdfd9 /* small buttons */,
     
     
 /*      Names of people  And server names    */
-	--header-primary: #98971a !important;
+	--header-primary: #B8BB26 !important;
 /*Reply of some one   and header of the channel      */
 	--header-secondary:  #fabd2f !important;
     
@@ -924,7 +924,7 @@ button.button_afdfd9 /* small buttons */,
     
     
 /* 	Not sure */
-	--logo-primary: #98971a !important;
+	--logo-primary: hsl(178, 93%, 46%) !important;
     
     
 /*  MENTION names   */
@@ -1123,7 +1123,8 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 /*date when the message was sent       */
-    --text-muted: #fb4934 !important; 
+	/**Message sent date*/
+    --text-muted: #FE8019 !important; 
 	--text-muted-on-default: #cc241d !important;
 
     
@@ -1149,7 +1150,7 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 /*ALL TEXT IN THE APP 	 */
-	--text-normal: #ebdbb2 !important;
+	--text-normal: #F7CDA2 !important;
 	
 	
 	
@@ -1197,9 +1198,9 @@ button.button_afdfd9 /* small buttons */,
 
     
     
-    
+    5
 /* main styles reinstated here      */
-	--primary-500: #b8bb26 !important;
+	--primary-500: #B8BB26 !important;
 	--primary-600: #dfdbc8 !important; 
 	--primary-630:  #3c3836 !important;
 	--primary-660: #17191b !important;
