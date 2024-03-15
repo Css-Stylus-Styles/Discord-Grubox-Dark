@@ -12,12 +12,41 @@
 
 
 
+    :root
 
-:root{
+{
     /* 0 is for darkest 
     1 is for hard 
     higher values for hard  */
 
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-normal :#ffd29c ;
+
+    --shadow-bg:         #1d1b1a;
+    
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
 
     --faded-red:     #fb4934;
     --faded-orange:  #fe8019;
@@ -25,13 +54,93 @@
     --faded-green:   #b8bb26;
     --faded-aqua:    #8ec07c;
     --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
 
-  --interface-light4: #a89988; /* light4: #a89988 */
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
 
 
 
-}
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
 
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    
+  --dark-green: #79740e;  
+  --dark-yellow: #b57614; 
+  --dark-blue: #076678;   
+  --dark-purple: #8f3f71;
+  --dark-aqua: #427b58; 
+  --dark-orange: #af3a03;
+
+
+  --interface-light0-hard: #f9f5d7; 
+  --interface-light0: #fbf1c7; 
+  --interface-light0-soft: #f2e5bc; 
+  --interface-light1: #ebdbb2; 
+  --interface-light2: #d5c4a1;
+  --interface-light3: #bdae93; 
+  --interface-light4: #a89988;
+
+
+ 
+	
+	
+	}
+	
 
 
 
@@ -940,10 +1049,13 @@ button.button_afdfd9 /* small buttons */,
 	--redesign-only-background-sunken: #689d6a !important; */
 
 
+	/*Pop up menu for the jump to new mesagges*/
+--background-accent: #9d0006 !important ; 
 
 
-
-
+/*Applies to buttons mostly */
+	--white-500: #ffd29c !important ; 
+	
 
 
 
@@ -1028,9 +1140,26 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 	
+	/*Side bar Profile name*/
+	.overflow__87fe8 {
+color : #83a598 !important ; 
+}
+	
+	/*Activity of the person in the personal chat whom you were talking to */
+	.activityText__84949{
+		color : #79740e !important ; 
+	}
+	
+
+/*Universal Time selection*/
+	time{
+		color : #98971a !important ; 
+	}
 	
 	
-	
+	time:hover{
+		color : #fe8019 !important  ; 
+	}
 	
 	
 	
