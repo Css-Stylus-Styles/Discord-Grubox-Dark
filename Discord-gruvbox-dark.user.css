@@ -1,463 +1,1027 @@
+
 /* ==UserStyle==
-@name           github.com - Feb 2024
-@namespace      github.com/o new 
+@name           discord.com - Dec 2023
+@namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    This user style will apply the google chivo font to everything page you visit 
-                I have made some changes in it 
-                this will not change the following 
-                    - monospace font
-                    - icons --> this theme is set up to ignore icons and dont mess up icons on most websites 
-@author         heybilalazhar@gmail.com
+@description    A new userstyle
+@author         Me
 ==/UserStyle== */
 
+@-moz-document domain("discord.com") {
 
 
-@-moz-document domain("github.com") {
 
-	
-	:root{
+
+
+:root{
     /* 0 is for darkest 
     1 is for hard 
     higher values for hard  */
 
 
-    /* 2.1 Dark theme color variables */
-    --bg0-dh:       #1d2021;
-    --bg1-dark:       #3c3836;
-    --bg-dark:        #282828;
-    --bg2-dark:       #504945;
-    --bg3-dark:       #665c54;
-    --bg4-dark:       #7c6f64;
-    --bg5-dark:       #928374;
-    --bg_visual:      #503946;
-    --bg_red:         #cc241d;
-    --bg_green:       #98971a;
-    --bg_blue:        #458588;
-    --bg_yellow:      #d79921;
-    --shadow:         #16181a;
-    --shadow-var1:         #17191b;
-    --shadow-cur:         #1a1b1d;
-
-    --fg-dark:        #ebdbb2;
-    --grey0-dark:     #7f897d;
-    --grey1-dark:     #859289;
-    --grey2-dark:     #9aa79d;
-
     --faded-red:     #fb4934;
     --faded-orange:  #fe8019;
-    --faded-yellow:   #fabd2f;
+    --faded-yellow:  #fabd2f;
     --faded-green:   #b8bb26;
     --faded-aqua:    #8ec07c;
     --faded-blue:    #83a598;
-    --faded-purple:  #d3869b;
 
-    --dim-red:       #cc241d;
-    --dim-orange:    #d65d0e;
-    --dim-yellow:    #d79921;
-    --dim-green:     #98971a;
-    --dim-aqua:      #689d6a;
-    --dim-blue:      #458588;
-    --dim-purple:    #b16286;
-
-
-    /* 2.2 Light theme color variables */
-    --bg0-light:     #f0edd8;
-    --bg1-light:     #f6f1dd;
-    --bg-light:      #fdf6e3;
-    --bg2-light:     #f3efda;
-    --bg3-light:     #edead5;
-    --bg4-light:     #e4e1cd;
-    --bg5-light:     #dfdbc8;
-    --grey0-light:   #a4ad9e;
-    --grey1-light:   #939f91;
-    --grey2-light:   #879686;
-    --shadow-light:  #3c474d20;
-
-
-    --text-offwhite: #fbf1c7;
-    --text-offyellowish: #f2e5bc;
-    --text-white: #f9f5d7;
-    --text-offwhite-faded: #ebdbb2;
-    --text--faded: #d5c4a1;
-    --text--veryfade: #928374;
-
-    
-
-    
-
-
-
-    --bg_visual_light:      #eaedc8;
-    --bg_red_light:         #fbe3da;
-    --bg_green_light:       #f0f1d2;
-    --bg_blue_light:        #e9f0e9;
-    --bg_yellow_light:      #faedcd;
-
-    --fg-light:       #5c6a72;
-
-    --light-red:     #f85552;
-    --light-orange:  #f57d26;
-    --light-yellow:  #bf983d;
-    --light-green:   #899c40;
-    --light-aqua:    #569d79;
-    --light-blue:    #5a93a2;
-    --light-purple:  #b87b9d;
-
-    --light-dim-red:    #f1706f;
-    --light-dim-orange: #f39459;
-    --light-dim-yellow: #e4b649;
-    --light-dim-green:  #a4bb4a;
-    --light-dim-aqua:   #6ec398;
-    --light-dim-blue:   #6cb3c6;
-    --light-dim-purple: #e092be;
-
-
-
- --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
-  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
-  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
-  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
-  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
-  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
-  --dark-orange: #af3a03;
-
-
-/* light colors */
-  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
-  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
-  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
-  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
-  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
-  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
   --interface-light4: #a89988; /* light4: #a89988 */
 
 
-		
-   
+
 }
-	
-	
-	
-	
-	
-	--fontStack-monospace : "Chivo" ,  monospace ; 
 
 
-	
-	
-	
-	
-	
-	
-	/*Top progress bar*/
-	div.turbo-progress-bar{
-		color : white !important ; 
-		background-color : #FB4934 !important ;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*General styles that are global */
-	
-	
-	/*All svg icons -> select other ones with their respective selectors*/
-	svg{
-fill : #FB4934 !important ; 
-		
-	}
-	
-	
-	
-	/*Universal background*/
-	body {
-		background: #16181A !important  ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Top BAR  */
-	
-	
-	
-	/*Type / to search button text */
-	div.overflow-hidden {
-		color : #98971A !important ; 
-		fill: #8EC07C !important ; 
-	}
-	
-	
-	/*Type to search bar background style*/
-	/*Type to search Button background*/
-    div.AppHeader-search-control{
-		
-		background-color : #1D2021 !important ; 
-	}
-	
-	
-	
-	/*Top APp header color */
-	/*Top Bar color  */
-	.AppHeader .AppHeader-globalBar {
 
-		background-color : #282828 !important ; 
-	}
+
+
+
+
+/* 
 	
-	
-	/* | Bar on the right side of input area  */
-	div.AppHeader-actions.position-relative::before{
-	
-		background-color:#98971A !important  ; 
-	
-	}
-	
-	/*Buttons on the Top bar background color */
-	.AppHeader .AppHeader-button {
-    background: #1D2021 !important;
+/* modify colors */
+#app-mount .container__590e2 /* channel list */,
+.privateChannels__93473 /* dms list */,
+#app-mount .container_ca50b9 /* user panel inner */,
+.members__9f47b /* member list inner */,
+.member_aa4760 /* member list members */,
+.searchResultsWrap__9f374 /* search results */,
+.searchHeader__19d87 /* search results header */,
+.chat__52833.container_d3a736 /* message requests */,
+#app-mount .panels__58331 > div /* user panel children */,
+.container_d667ff /* vc panel */,
+.sidebarRegionScroller__1fa7e /* settings left */,
+.theme-dark .container__10dc7 /* browse channels container */,
+.theme-dark .header__60bef /* browse channels header */,
+.theme-dark .container__7590f /* browse channels inner */,
+.chat__52833.background_cb0a80 /* server guide body */,
+.theme-dark .scrollerContainer_bf5dbd /* channels and roles customize */,
+.shop_b31ed2 /* shop */,
+.wrapper_bd2abe.minimum_ebf000 /* private call */ {
+	background: var(--bg-4);
 }
-	
-	
-	/*Repo and author name */
-	.AppHeader{
-
-	color:#8EC07C !important ; 
-		
-		/*TOP second header */
-	background-color : #1D2021 !important  ;
-	}
-	
-	/*Code . Issues , pull requests , DIscussions  , Actions   Projects */
-	.UnderlineNav-item {
-    background-color: #16181A !important ; ;
-    border-radius: var(--borderRadius-medium, 0.375rem);
-    color:#B8BB26 !important ; 
+.mainCard__8a660 /* forum post */ {
+	background: var(--bg-3);
 }
-	
-	
-	/*issues tab */
-	/*Code  , Pull requests , projects button icons */
-	span#pull-requests-repo-tab-count, 
-	
-	span#projects-repo-tab-count, 
-	
-	span#issues-repo-tab-count
-	{
-		color:#FBF1C7 !important;
-		background-color:#3C3836 !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Name of repo -> Third tab */
-	
-	
-	
-a.color-fg-default{
-			color:#B16286 !important;
-	
-	}
-	
-	/*Public logo near the repo name  ,Privacy of the repo */
-	span.Label.Label--secondary.v-align-middle.mr-1.d-none.d-md-block{
-		color:#D5C4A1 !important ; 
-		 background-color:#16181A !important ; 
-	}
-	
-	/*Couldn't load subscription status-> Text */
-	span.d-flex.pt-1{
-			color:#D5C4A1 !important ; 
-	
-	}
-	
-	
-	/*Retruy on the third tab  */
-	span.Button-label{
-		
-		color:#FB4934 !important ;
-		
-	}
-	
-	/*Fork , Stars button and white foregrround */
-	span#repo-stars-counter-star , 
-	span#repo-network-counter{
-		color : #F2E5BC !important  ; 
-		background: #16181A !important  ; 
-	}
-	
-	
-	/*Most or all buttons */
-	button{
-		
-		color:#B8BB26 !important ; 
-	
-		background-color:#16181A !important ; 
-	}
-	
-	/*Watch Button */
-	summary#repository-details-watch-button.btn-sm.btn{
-		
-		color:#B8BB26 !important ; 
-		background-color: #16181A !important ; 
-	}
-	
-	/*Watch button background-41 round button */
-	span#repo-notifications-counter{
-		background-color:#17191B !important; 
-	}
-	
-	/*Last two buttons tabs */
-	summary.btn-sm.btn.BtnGroup-item.px-2.float-none{
-		background-color:#17191B !important ; 
-	}
-	
-	/*Fork buttons*/
-       a#fork-button.btn-sm.btn.BtnGroup-item {
-		color:#B8BB26 !important ; 
-		background-color: #16181A !important ; 
-	}
-	
-	/*Star Button*/
-	span.d-inline{
-		color: #B8BB26 !important ;
-	}
-	
-	
-	
-	kbd.AppHeader-search-kbd{
-			color: #FE8019 !important ; 
-		background-color: #1A1B1D !important ; 
-		border : solid #79740E !important ; 
-		border-width: 0.1px !important ;
-		font-size: 90% !important ; 
-		font-weight: 600 !important ; 
-		padding: 0px  9px  !important ; 
-	}
-	
-	
-	
-	/*T -> keyboard shortcut */
-	kbd{
-		color: #FE8019 !important ; 
-		background-color: #16181A !important ; 
-		font-size: 90% !important ; 
-		font-weight: 600 !important ; 
-		padding: 6px 6px  !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	/*Fourth tab */
-	
-	
-	/*Goo to file */
-	input::placeholder {
-		
-		color: #79740E !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	/*Side bar */
-	/*About */
-	/*Sponsor this project */
-	
-	h2.mb-3.h4{
-		color : #427B58 !important ; 
-	}
-	
-	
-	/*Descriptioon for the repo */
-	p.f4.my-3{
+.folderIconWrapper__72239 /* closed folder */ {
+	background: var(--bg-3) !important;
+}
+.theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42 /* friend activity cards on hover */ {
+	background: var(--bg-2);
+}
+#app-mount .searchAnswer_b452e7, /* search filter answer */
+#app-mount .searchFilter__118cb /* search filter */ {
+	background: var(--bg-1);
+}
+.container__871ba /* settings checkbuttons default */ {
+	background: var(--bg-1) !important;
+}
+.chat__52833 /* chat + member list */,
+.sidebar_ded4b5 /* channel sidebar */,
+.privateChannels__93473 .scroller__4b984 /* dms list inner */,
+.theme-dark .innerHeader_afca2f:after /* channels and roles header shadow */,
+.attachedBars_da3c74 /* reply bar underneath */ {
+	background: none;
+}
+.selected__0b1ad .header__104ca, .clickable__2d589 .header__104ca:hover /* server name hover */ {
+	background: var(--message-hover);
+}
+.message__80c10.replying_d7b6ad.selected_fd9051, .mouse-mode.full-motion .replying_d7b6ad:hover /* fix reply message hover */ {
+	background: var(--background-message-highlight-hover);
+}
+div.message__80c10.replying_d7b6ad::before /* change reply message bar to neutral */ {
+	background: var(--text-2);
+}
+.activeButtonChild__6e162 /* send button */ {
+	color: var(--accent-2);
+}
+.container_ca50b9 /* user panel button strikethroughs */,
+.numberBadge__50328 /* unread number badge */,
+.toolbar__88c63 /* toolbar button strikethroughs */ {
+	--status-danger: var(--accent-2);
+}
+.expandedFolderIconWrapper__458cf > svg {
+	color: var(--accent-3) !important;
+}
+.divider_b9338f /* unread divider */,
+.mention__1afd3 /* NEW unread pill */ {
+	--status-danger: var(--accent-3);
+}
+.message__80c10.mentioned__58017:before /* mention message left edge */ {
+	background: var(--accent-3);
+}
+.container__871ba.checked__6bdb0 /* settings checkbuttons */ {
+	background: var(--accent-3) !important;
+}
+path[fill='rgba(35, 165, 90, 1)'] {
+	fill: var(--accent-3);
+}
+.container_a308ae:last-child .icon__28d6c /* explore discoverable servers icon color */ {
+	background-color: #3ba55c;
+	filter: hue-rotate(56deg) saturate(1.43);
+}
+.container_a308ae:first-child .icon__28d6c {
+	filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
+}
+.lookFilled__19298.colorBrand_b2253e .defaultColor__77578 /* vc choose an activity button */ {
+	color: var(--white-500);
+}
+::selection {
+	background: var(--accent-4);
+	color: white;
+}
+
+/* fix weird message bar padding */
+.clipContainer__99c30 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/* change online indicator color */
+rect[fill='#23a55a'] {
+	fill: var(--online-indicator) !important;
+}
+.status__1c26d[style='background-color: var(--green-360);'],
+.status__1c26d[style='background-color: currentcolor;'] {
+	background-color: var(--online-indicator) !important;
+}
+
+/* separate header bar */
+.title_b7d661.themed_b152d4 /* remove bg */ {
+	background: none;
+}
+.searchResultsWrap__9f374 /* allow overflow */ {
+	overflow: visible;
+}
+.container__93316::before /* main chat */,
+.membersWrap__90226::before /* member list */,
+.searchResultsWrap__9f374::before /* search results */,
+.profilePanel__12596::before /* dm profile */ {
+	content: '';
+	position: absolute;
+	margin-top: -48px;
+	background: var(--background-primary);
+	width: 100%;
+	height: 48px;
+	border-radius: var(--roundness-xl) var(--roundness-xl) 0 0;
+}
+.wrapper_bd2abe.minimum_ebf000 ~ .content__1a4fe .container__93316::before /* remove when in private call */ {
+	display: none;
+}
+
+/* rearrange toolbar */
+a[href="https://support.discord.com"] /* hide help */
+{
+	display: none;
+}
+.search__07df0 {
+	order: 1;
+	margin: 0 4px 0 12px;
+}
+.chat__52833:has(.searchResultsWrap__9f374) .searchBar_e0c60b {
+	width: 394px !important;
+	margin-left: calc(var(--spacing) + 8px);
+}
+.chat__52833:has(.profilePanel__12596) .searchBar_e0c60b {
+	width: 316px !important;
+	margin-left: calc(var(--spacing) + 8px);
+}
+.chat__52833:has(.membersWrap__90226) .searchBar_e0c60b {
+	width: 216px !important;
+	margin-left: calc(var(--spacing) + 8px);
+}
+
+/* add spacing */
+.base__3e6af /* outside edges */ {
+	margin: 0 var(--spacing) var(--spacing) 0;
+}
+.sidebar_ded4b5 /* channel list and user panel */,
+.content__1a4fe /* between chat and member list */ {
+	gap: var(--spacing);
+}
+.sidebar_ded4b5 /* channel list and chat */ {
+	margin-right: var(--spacing);
+}
+.sidebar_ded4b5.hidden__3ab58 {
+	margin-right: 0;
+}
+.resizeHandle_f1a098 /* pretend to be a margin */ {
+	width: var(--spacing);
+}
+.wrapper_bd2abe.fullScreen__5263c .callContainer_cbde45 /* fullscreen vc */ {
+	margin-top: var(--spacing);
+}
+.notice__5fd4c /* banner notice */,
+.wrapper_bd2abe.minimum_ebf000 /* private call */ {
+	margin-bottom: var(--spacing);
+}
+/* fix padding */
+#vc-spotify-player /* vencord spotify */,
+.container_d667ff /* vc panel */,
+.panel_bd8c76 /* stream panel */ {
+	padding: 10px;
+}
+
+/* add rounded corners */
+.container__590e2 /* channel list */,
+.panels__58331 /* user panels */,
+.privateChannels__93473 /* dms list */,
+.container__5c7e7 /* friends page */,
+.applicationStore_fc7d76 /* nitro page */,
+#app-mount .container_d3a736 /* message requests */,
+.shop_b31ed2 /* discord shop */,
+.container_a87c5e /* family center */,
+.container_def45c /* message request */,
+#app-mount .callContainer_cbde45 /* vc */, 
+.chat__52833 /* general chat container (for browse channels page */,
+.animatedContainer__341f6 /* server image card */,
+.notice__5fd4c /* banner notice */,
+.wrapper_bd2abe.minimum_ebf000, /* private call */
+.wrapper_bd2abe.minimum_ebf000 ~ .content__1a4fe /* chat under private call */ {
+	border-radius: var(--roundness-xl);
+	overflow: hidden;
+}
+.container__93316 /* main chat */,
+.chatContent__5dca8 /* main chat inner */,
+.container_b2ce9c /* members list */,
+.members__9f47b /* members list inner */,
+.searchResultsWrap__9f374 /* search results */,
+.profilePanel__12596 /* profile panel outer */,
+.userPanelOuter__880e5 /* profile panel inner */,
+.userPanelInner_eddf4c /* profile panel inner inner */,
+.userPanelInner_eddf4c::before /* profile panel inner inner filter */ {
+	border-radius: 0 0 var(--roundness-xl) var(--roundness-xl);
+}
+
+/* more rounded corners */
+.messagesPopoutWrap_b3b384 /* inbox, pinned messages popout */,
+.container__8261a /* thread popout */,
+.menu_dc52c6 .item__183e8d /* server option popout */,
+.userPopoutOuter_d739b2 /* user profile popout */,
+.root_ba16f0 /* user profile modal */,
+.contentWrapper__321ed /* emoji, sticker, gif pickers */,
+.root_a28985 /* edit modal */,
+.footer__89240 /* edit modal footer */ {
+	border-radius: var(--roundness-l);
+}
+.roundedBanner__9fa0a /* user profile popout top */ {
+	border-radius: calc(var(--roundness-l) - 4px) calc(var(--roundness-l) - 4px) 0 0;
+}
+.userPopoutInner_f545a3:before /* user profile popout bottom */,
+.userProfileModalInner__7c87d:before /* user profile modal bottom */ {
+	border-radius: calc(var(--roundness-l) - 4px);
+}
+.overlayBackground__86b78 /* user profile inner */ {
+	border-radius: var(--roundness-s);
+}
+.menu_dc52c6 /* general popouts */,
+.embed_d3cbe3 /* embeds */,
+.mediaAttachmentsContainer_edba75 /* image container */,
+.oneByOneGridSingle__01756 /* image container single */,
+.imageContainer__04362 .imageWrapper_fd6587 /* gif wrapper */,
+.markup_a7e664 code /* code block */,
+.itemCard__1f162 /* friend activity */,
+.peopleListItem_d14722:hover /* online list friends */,
+.withTagAsButton_cc125f:hover, .withTagless__98b7d:hover /* user panel username */ {
+	border-radius: var(--roundness-m);
+}
+.scrollableContainer__33e06 /* message bar */,
+.channelTextArea__2e60f /* message bar underneath */,
+.select__0eb48 /* bot dropdown select */,
+.layout_bb8e67 /* members */,
+.interactive__776ee /* dms */,
+.container__767d1 /* thread link */,
+.input_d266e7 /* settings inputs */,
+.item_b7fb7e /* settings radiobutton bars */,
+.item_b7fb7e .radioBar__40e1b /* settings radiobutton bars */,
+.tooltip__01384 /* server hover name */ {
+	border-radius: var(--roundness-s);
+}
+.scrollableContainer__33e06.hasConnectedBar__277ab /* fix message bar with reply bar */ {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.replyBar_b64d74 {
+	border-radius: var(--roundness-s) var(--roundness-s) 0 0;
+}
+.link__95dc0 /* channels */,
+.content_b60865 /* member connected to vc */,
+.side_b4b3f6 .item__48dda /* settings tabs */,
+button.button_afdfd9 /* small buttons */,
+.container__7712a /* friend searchbar */,
+.item__183e8 /* general popout buttons */,
+.icon_c1b424 /* streaming icon */,
+#vc-spotify-album-image,
+.background__584e7 /* settings nitro tab selected */ {
+	border-radius: var(--roundness-xs);
+}
+.wrapper_f46140 /* mentions */,
+.searchBar_e0c60b /* search bar */,
+.searchBar_e4ea2a .searchBarComponent__22760 /* find conversation search bar */,
+.topPill__0cdf1 .item__48dda /* friend online/categories */ {
+	border-radius: var(--roundness-xxs);
+}
+#app-mount .centerButton__3205b /* fix vc buttons */ {
+	border-radius: 50%;
+}
+
+/* separate guilds panel background */
+.guilds__2b93a {
+	background: var(--bg-4);
+	border-radius: var(--roundness-xl);
+	margin: 0 0 var(--spacing) var(--spacing);
+}
+.guilds__2b93a.hidden__7c832 {
+	margin: 0;
+}
+#app-mount .scroller__3d071 {
+	padding: 12px 0;
+}
+.base__3e6af {
+	margin-left: var(--spacing);
+}
+.guilds__2b93a::after /* add bottom scroll shadow */,
+.membersWrap__90226::after {
+	content: '';
+	position: absolute;
+	background: linear-gradient(transparent 85%, var(--bg-4) 100%);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	pointer-events: none;
+	border-radius: 0 0 var(--roundness-xl) var(--roundness-xl);
+}
+.guilds__2b93a::before /* add top scroll shadow */ {
+	content: '';
+	position: absolute;
+	background: linear-gradient(var(--bg-4) 0%, transparent 15%);
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	pointer-events: none;
+	z-index: 1;
+}
+.childWrapper__01b9c {
+	background: var(--bg-3);
+}
+.container__037ed > [style$='display: flex;'] > .guilds__2b93a {
+	margin: 0;
+}
+.container__037ed > [style$='display: flex;'] {
+	margin: 0 0 var(--spacing) var(--spacing);
+}
+/* UNCOMMENT IF YOU REMOVE THE ABOVE SECTION "separate guilds panel background"
+.expandedFolderBackground__1bec6,
+.folder__17546,
+.folderIconWrapper__72239 {
+	background-color: var(--bg-4) !important;
+} */
+
+/* extra top margin for macos and custom clients */
+.container__037ed {
+	margin-top: var(--spacing);
+}
+.platform-win .container__037ed {
+	margin-top: 0;
+}
+/* UNCOMMENT if you want to make panels evenly sized on macos 
+.platform-osx .wrapper_a7e7a8 {
+    margin-top: 0;
+}
+.platform-osx .container__037ed {
+    margin-top: 32px;
+} */
+
+/* top corner title */
+[class^='wordmarkWindows'] {
+	padding: 4px var(--spacing);
+}
+[class^='wordmarkWindows'] > svg {
+	display: none;
+}
+[class^='wordmarkWindows']::after {
+	content: 'Midnight';
+	display: block;
+	position: relative;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font);
+	font-size: 13px;
+	font-weight: 900;
+	color: var(--text-5);
+	transform: scaleX(1.2);
+	margin-left: 6px;
+}
+
+/* top bar height */
+[class^='typeWindows'] {
+	height: calc(var(--spacing) + 8px);
+}
+
+/* window controls */
+[class^='winButton'] > svg {
+	display: none;
+}
+[class^='winButton'] {
+	background: none !important;
+	top: 0;
+	width: calc(var(--spacing) + 8px);
+	height: calc(var(--spacing) + 8px);
+	margin: -2px 4px 0px 0px;
+}
+[class^='winButtonClose'] {
+	margin: -2px calc(var(--spacing) - 4px) 0px 0px;
+}
+[class^='winButton']::after {
+	content: '';
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+}
+[class^='winButton']:hover::after {
+	filter: brightness(0.8);
+}
+[class^='winButton']:active::after {
+	transform: scale(0.9);
+}
+[class^='winButtonClose']::after {
+	background-color: hsl(350, 50%, 50%) !important;
+}
+[class^='winButtonMinMax']:nth-child(3)::after {
+	background-color: hsl(150, 50%, 50%) !important;
+}
+[class^='winButtonMinMax']:nth-child(4)::after {
+	background-color: hsl(50, 50%, 50%) !important;
+}
+
+/* add moon */
+.childWrapper__01b9c > svg:not(.favoriteIcon__91c06) {
+	display: var(--discord-icon);
+}
+.childWrapper__01b9c:has(> svg:not(.favoriteIcon__91c06))::before {
+	content: '';
+	display: var(--moon-icon);
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: var(--text-4);
+	-webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+}
+.wrapper_d281dd:hover .childWrapper__01b9c::before {
+	transition: background-color 0.15s ease-out, transform 0.3s ease-out;
+	transform: rotate(0deg) scale(1);
+}
+.wrapper_d281dd:hover > .childWrapper__01b9c::before,
+.wrapper_d281dd.selected_f5ec8e > .childWrapper__01b9c::before {
+	background: var(--text-1);
+	transform: rotate(-360deg) scale(0.8);
+}
+
+/* improve unread divider */
+.divider_b9338f {
+	border-width: 4px;
+	border-radius: 4px;
+}
+.divider_b9338f .content_d67847 {
+	margin-top: -3px;
+}
+.endCap__95d53 {
+	margin-top: -1px;
+	padding-top: 2px;
+}
+/* improve highlight message left edge */
+.message__80c10.mentioned__58017::before,
+.replying_d7b6ad::before {
+	width: 4px;
+	border-radius: 4px;
+}
+/* modify embeds */
+.embedFull__8dc21 {
+	border: 4px solid var(--bg-2);
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+	border-right-color: transparent !important;
+}
+
+/* make emoji selector same color */
+.emojiButtonNormal__73cd3 .sprite__294b3 {
+	filter: grayscale(100%) brightness(40%) sepia(0.9) hue-rotate(180deg) !important;
+}
+/* filter login image */
+.artwork__8fc92 {
+	filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4);
+}
+
+/* horizontal server list fix */
+#app-mount .app_b1f720 .base__3e6af {
+	top: calc(var(--server-container) + var(--spacing)) !important;
+}
+
+/* experimental transitions */
+.wrapper__7bcde .link__95dc0 /* channels */,
+.container__4f20e /* members */,
+.channel_c21703 /* dms */,
+.side_b4b3f6 .item__48dda /* settings */ {
+	transition: margin-left var(--hover-push);
+}
+.wrapper__7bcde:hover .link__95dc0,
+.side_b4b3f6 .item__48dda:hover {
+	margin-left: 10px;
+}
+.container__4f20e:hover,
+.channel_c21703:hover {
+	margin-left: 18px;
+}
+
+
+
+
+
+
+
+.theme-dark {
+
+
+/*Links hover and more  	 */
+
+    a{
+        color:#fb4934 !important;
+    }
+       a:hover{
+        color:#b8bb26 !important;
+    }
+
+	a:visited {
 		color : #076678 !important ; 
-		
 	}
-	
-	
-	/*Side bar link */
-	a.text-bold{
-		color : #FB4934 !important ; 
-		
+
+
+
+/*     
+	--activity-card-background: black !important;;
+	--android-navigation-bar-background: black !important;;
+	--android-navigation-scrim-background: black !important;;
+	--android-ripple: black !important;;
+	--background-accent: #16181a !important;
+	--background-floating: var(--bg-3);
+     */
+
+
+
+
+	--background-mentioned-hover: #cc241d !important;
+
+
+
+
+
+/*  message serperator color -> date serperstalign-contentr   */
+	--background-modifier-accent:#282828 !important;
+
+
+
+
+
+
+
+
+
+
+/* 	--background-modifier-accent-2:#79740e !important;
+	--background-modifier-active:#b8bb26 !important;
+	--background-modifier-hover: #d5c4a1 !important; */
+
+/*side bar highlighing color       */
+	--background-modifier-selected:#282828 !important;
+	--background-nested-floating: #FB4934 !important;
+/*      MAIN background color -> Main chat bg color */
+	--background-primary: #1a1b1d !important;
+/* Youtube block and then  other block    */
+
+
+
+
+
+/* Youtube emeddd	 */
+	article.embedWrapper_c143d9.embedFull__8dc21.embed_d3cbe3.markup_a7e664.justifyAuto__70e6c{
+		background-color : #f2e5bc !important ; 
+		color : white !important ; 
+			border: solid #fb4934 !important ; 
+		border-radius: 12px !important ; 
 	}
-	
-	
-	/*Tags for the repo */
-	a.topic-tag.topic-tag-link{
-		color : #EBDBB2 !important ; 
+
+/* Applies to background of discord waiting screen -> offline screen backgorund color 	 */
+	--background-secondary: #282828 !important;
+/* actual side bar color      */
+/* 	--background-tertiary: #1d2021 !important; */
+
+
+/* LEft hand most side channel sidebar	 */
+    #app-mount .scroller__3d071 {
+		background-color : #cc241d !important; 
+    padding: 12px 0;
+}
+
+/* 	--bg-backdrop: #98971a !important;
+	--bg-backdrop-no-opacity:#98971a !important;
+	--bg-base-primary: #98971a !important;
+	--bg-base-secondary:#fb4934 !important;
+	--bg-base-tertiary:#fb4934 !important;
+	--bg-mod-faint: #fb4934 !important;
+	--bg-mod-strong:#fb4934 !important;
+	--bg-mod-subtle:#fb4934 !important;
+	--bg-surface-overlay:#fb4934 !important;
+	--bg-surface-overlay-tmp:#fb4934 !important;
+	--bg-surface-raised:white  !important; */
+
+
+
+
+
+
+/* Buttons -> CHeck behaviour over time and correct this 	 */
+
+/* 	--button-creator-revenue-background:#b8bb26 !important;
+	--button-danger-background: #fb4934 !important;
+	--button-danger-background-active:#fb4934 !important;
+	--button-danger-bive-background-active:#fb4934 !important;
+	--button-outline-positive-background-hover:#fb4934 !important;
+	--button-outline-positive-border: #fb4934 !important;
+	--button-outline-positive-border-active: #fb4934 !important;
+	--button-outline-positive-border-hover:#fb4934 !important;
+	--button-outline-positive-text: #fb4934 !important;
+	--button-outline-positive-text-active: #fb4934 !important;
+	--button-outline-positive-text-hover:#fb4934 !important;
+	--button-outline-primary-background:#fb4934 !important;
+	--button-outline-primary-background-active:#fb4934 !important;
+	--button-outline-primary-background-hover:#fb4934 !important;
+	--button-outline-primary-border: #fb4934 !important;
+	--button-outline-primary-border-active:#fb4934 !important;
+	--button-outline-primary-border-hover:#fb4934 !important;
+	--button-outline-primary-text: #fb4934 !important;
+	--button-outline-priackground-disabled:#fb4934 !important;
+	--button-danger-background-hover: #fb4934 !important;
+	--button-outline-brand-background:#fb4934 !important;
+	--button-outline-brand-background-active:#fb4934 !important;
+	--button-outline-brand-background-hover: #fb4934 !important;
+	--button-outline-brand-border:#fb4934 !important;
+	--button-outline-brand-border-active:#fb4934 !important;
+	--button-outline-brand-border-hover:#fb4934 !important;
+	--button-outline-brand-text:#fb4934 !important;
+	--button-outline-brand-text-active: #fb4934 !important;
+	--button-outline-brand-text-hover:#fb4934 !important;
+	--button-outline-danger-background: #fb4934 !important;
+	--button-outline-danger-background-active:#fb4934 !important;
+	--button-outline-danger-background-hover:#fb4934 !important;
+	--button-outline-danger-border:#fb4934 !important;
+	--button-outline-danger-border-active:#fb4934 !important;
+	--button-outline-danger-border-hover: #fb4934 !important;
+	--button-outline-danger-text: #fb4934 !important;
+	--button-outline-danger-text-active: #fb4934 !important;
+	--button-outline-danger-text-hover:#fb4934 !important;
+	--button-outline-positive-background:#fb4934 !important;
+	--button-outline-positmary-text-active: #fb4934 !important;
+	--button-outline-primary-text-hover:#fb4934 !important;
+	--button-positive-background: #fb4934 !important;
+	--button-positive-background-active: #fb4934 !important;
+	--button-positive-background-disabled: #fb4934 !important;
+	--button-positive-background-hover: #fb4934 !important;
+	--button-secondary-background: #fb4934 !important;
+	--button-secondary-background-active:#fb4934 !important;
+	--button-secondary-background-disabled:#fb4934 !important;
+	--button-secondary-background-hover:#fb4934 !important; */
+
+
+
+
+/*   cards styles    */
+/*Not sure       */
+
+/* 	--card-gradient-bg:#fabd2f !important;
+	--card-gradient-pressed-bg: #fabd2f !important;
+	--card-primary-bg: #fabd2f !important;
+	--card-primary-pressed-bg:#fabd2f !important;
+	--card-secondary-bg: #fabd2f !important;
+	--card-secondary-pressed-bg:#f00 !important;
+     */
+
+/* Channel color icon  -> Applies to Side bar and channel top bar    */
+	--channel-icon: #79740e !important;
+
+
+/*Not sure  	 */
+/*message in channel #text       */
+	--channel-text-area-placeholder: #98971a !important;
+
+/*  Channel names color     */
+	--channels-default:#d5c4a1 !important;
+
+
+/* Channel input area 	 */
+
+	div.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a{
+
+		background-color : #1a1b1d !important ; 
+		border : solid #f2e5bc !important ; 
+		border-width: 1px !important ; 
+		border-radius: 23px !important ; 
+	}
+
+
+
+
+
+/*     --chat-border:#cc241d !important;
+	--chat-input-container-background:  #d3869b !important;
+	--chat-swipe-to-reply-background: #d3869b !important;
+	--control-brand-foreground: #d3869b !important;
+	--control-brand-foreground-new:  #d3869b !important;
+	--creator-revenue-icon-gradient-end: #d3869b !important;
+	--creator-revenue-icon-gradient-start: #d3869b !important;
+	--creator-revenue-info-box-background: #d3869b !important;
+	--creator-revenue-info-box-border:  #d3869b !important;
+	--creator-revenue-locked-channel-icon:  #d3869b !important;
+	--creator-revenue-progress-bar:  #d3869b !important;
+	--deprecated-card-bg:  #d3869b !important;
+	--deprecated-card-editable-bg: #d3869b !important;
+	--deprecated-quickswitcher-input-background:  #d3869b !important;
+	--deprecated-quickswitcher-input-placeholder:  #d3869b !important;
+	--deprecated-text-input-bg:  #d3869b !important;
+	--deprecated-text-input-border: #d3869b !important;
+	--deprecated-text-input-border-disabled: #d3869b !important;
+	--deprecated-text-input-border-hover: #d3869b !important;
+	--deprecated-text-input-prefix:  #d3869b !important;
+    
+	--display-banner-overflow-background: #d3869b !important;
+	--divider-strong: #d3869b !important;
+	--divider-subtle:  #d3869b !important;
+	--focus-primary: #d3869b !important;
+	--forum-post-extra-media-count-container-background: #d3869b !important;
+	--forum-post-tag-background:   #d3869b !important;
+	--guild-notifications-bottom-sheet-pill-background: #d3869b !important;
+	--header-muted:  #d3869b !important; */
+
+
+
+/*      Names of people  And server names    */
+	--header-primary: #B8BB26 !important;
+/*Reply of some one   and header of the channel      */
+	--header-secondary:  #83A598 !important;
+
+
+/* 	--home-background: #98971a !important;
+	--home-card-resting-border: #98971a !important;
+	--icon-muted:  #98971a !important;
+	--icon-primary:  #458588 !important;
+	--icon-secondary:  #458588 !important; */
+
+
+/* 	--info-box-background: #cc241d !important;
+	--info-danger-background:  #98971a !important;
+	--info-danger-foreground: #98971a !important;
+	--info-danger-text: #98971a !important;
+	--info-help-background:  #98971a !important;
+	--info-help-foreground:  #98971a !important;
+	--info-help-text: #98971a !important;
+	--info-positive-background: #fabd2f !important;
+	--info-positive-foreground: #fabd2f !important;
+	--info-positive-text: #98971a !important;
+	--info-warning-background: #79740e !important;
+	--info-warning-foreground: #fbf1c7 !important;
+	--info-warning-text: #98971a !important;
+	--input-background: #98971a !important;
+	--input-placeholder :white  !important; */
+
+
+
+
+/* CACtive channel -> shopw which channel you are using right now     */
+	--interactive-active:  #b8bb26 !important;
+
+/*      hover  when you hover over channel   */
+	--interactive-hover:  #b8bb26 !important;
+
+/* Chanenl thread line      */
+	--interactive-muted:  #fe8019 !important;
+
+	/*  All main Icons */
+    --interactive-normal:  #fb4934 !important;
+
+
+
+
+
+
+/*Discord logo hover  	 */
+	--brand-experiment : #79740e !important ; 
+
+
+
+
+
+/* 	Not sure */
+	--logo-primary: hsl(178, 93%, 46%) !important;
+
+
+/*  MENTION names   */
+	span.mention.wrapper_f46140{
+
+	background-color :#16181a !important;
+	color : #fbe3da !important;
+		border: solid #b8bb26 !important ;
+		border-width: 1px !important ; 
+		border-radius: 12px !important; 
+
+	}
+
+/*HIghlight mention when some oen is mentioned in the server  */
+	div.message__80c10.cozyMessage__64ce7.mentioned__58017.wrapper__09ecc.cozy_f5c119.zalgo__39311{
 		background-color : #282828 !important ; 
 	}
+
+
+
+
+
+
+/*  On borading experince bg     */
+	--modal-background:#1d2021 !important;
+	--modal-footer-background: #98971a !important;
+
+
+/* 	--navigator-header-tint: #9d0006 !important; */
+
+
+/* 	--polls-image-normal-border:#f00 !important;
+	--polls-victor-border: #f00 !important;
+	--polls-victor-fill: #f00 !important;
+	--polls-victor-label: #f00 !important;
+	--polls-voted-border:#f00 !important;
+	--polls-voted-fill: #f00 !important;
+	--polls-voted-label:#f00 !important; */
+
+
+
+/* 	--profile-gradient-card-background: #8ec07c !important;
+	--profile-gradient-message-input-border: #8ec07c !important;
+	--profile-gradient-note-background:#8ec07c !important;
+	--profile-gradient-overlay: #8ec07c !important;
+	--profile-gradient-overlay-synced-with-user-theme: #98971a !important;
+	--profile-gradient-profile-body-background-hover:#f00 !important;
+	--profile-gradient-role-pill-background:#98971a !important;
+	--profile-gradient-role-pill-border:#8ec07c !important;
+	--profile-gradient-section-box:#f00 !important;
+	--redesign-activity-card-background:#f00 !important;
+	--redesign-activity-card-background-pressed: #f00 !important;
+	--redesign-activity-card-badge-icon:#f00 !important;
+	--redesign-activity-card-border: #f00 !important;
+	--redesign-activity-card-overflow-background:#f00 !important;
+	--redesign-button-danger-background: #b8bb26 !important;
+	--redesign-button-danger-pressed-background: #98971a !important;
+	--redesign-button-danger-text: #f00 !important; */
+
+
+
+
+
+
+    /* 	--redesign-button-overlay-alpha-background: #689d6a !important;
+	--redesign-button-overlay-alpha-pressed-background:#689d6a !important;
+	--redesign-button-overlay-alpha-text:#689d6a !important;
+	--redesign-button-overlay-background:#689d6a !important;
+	--redesign-button-overlay-pressed-background:#689d6a !important;
+	--redesign-button-overlay-text: #689d6a !important;
+	--redesign-button-positive-background:#689d6a !important;
+	--redesign-button-positive-pressed-background:#689d6a !important;
+	--redesign-button-positive-text:#689d6a !important;
+	--redesign-button-primary-alt-background: #689d6a !important;
+	--redesign-button-primary-alt-border:#689d6a !important;
+	--redesign-button-primary-alt-on-blurple-background:#689d6a !important;
+	--redesign-button-primary-alt-on-blurple-border:#689d6a !important;
+	--redesign-button-primary-alt-on-blurple-pressed-background:#689d6a !important;
+	--redesign-button-primary-alt-on-blurple-pressed-border:#689d6a !important;
+	--redesign-button-primary-alt-on-blurple-text:#689d6a !important;
+	--redesign-button-primary-alt-pressed-background: #689d6a !important;
+	--redesign-button-primary-alt-pressed-border:#689d6a !important;
+	--redesign-button-primary-alt-pressed-text: #689d6a !important;
+	--redesign-button-primary-alt-text:#689d6a !important;
+	--redesign-button-primary-background:#689d6a !important;
+	--redesign-button-primary-on-blurple-background: #689d6a !important;
+	--redesign-button-primary-on-blurple-pressed-background:#689d6a !important;
+	--redesign-button-primary-on-blurple-pressed-text: #689d6a !important;
+	--redesign-button-primary-on-blurple-text:#689d6a !important;
+	--redesign-button-primary-pressed-background:#689d6a !important;
+	--redesign-button-primary-text:#689d6a !important;
+	--redesign-button-secondary-alt-background:#689d6a !important;
+	--redesign-button-secondary-alt-pressed-background:#689d6a !important;
+	--redesign-button-secondary-alt-pressed-text:#689d6a !important;
+	--redesign-button-secondary-alt-text: #689d6a !important;
+	--redesign-button-secondary-background:#689d6a !important;
+	--redesign-button-secondary-border: #689d6a !important;
+	--redesign-button-secondary-pressed-background: #689d6a !important;
+	--redesign-button-secondary-pressed-border:#689d6a !important;
+	--redesign-button-secondary-text:#689d6a !important;
+	--redesign-channel-category-name-text: #689d6a !important;
+	--redesign-channel-message-preview-text:#689d6a !important;
+	--redesign-channel-name-muted-text:#689d6a !important;;
+	--redesign-channel-name-text: #689d6a !important;
+	--redesign-chat-input-background: #689d6a !important;
+	--redesign-input-control-active-bg:#689d6a !important;
+	--redesign-input-control-selected: #689d6a !important; */
+
+
+/* 	--redesign-only-background-active: #689d6a !important;
+	--redesign-only-background-default:#689d6a !important;
+	--redesign-only-background-overlay: #689d6a !important;
+	--redesign-only-background-raised: #689d6a !important;
+	--redesign-only-background-sunken: #689d6a !important; */
+
+
+
+
+
+
+
+
+
+/* MAIN CHAT SIDE BAR SCROOL BAR	 */
+	--scrollbar-auto-scrollbar-color-thumb:#d5c4a1 !important;
+
+	--scrollbar-auto-scrollbar-color-track: #689d6a !important;
+
+
+
+/* 	 scroll bar */
+	--scrollbar-auto-thumb:#689d6a !important;
+
+
+
+
+/* CHANNEL SCROLL BARS	 */
+	--scrollbar-auto-track: #fbe3da;
+	--scrollbar-thin-thumb:#427b58 !important;
+
+/* 
+
+	USER PROFILE SCROLL BAR 
+	*/
+	--scrollbar-thin-track:#d5c4a1 !important;
+
+
+
+
+
+
+
+
+	--status-danger:#9d0006 !important;
+
+	--status-danger-background:#cc241d !important;
+
+	--status-danger-text:#cc241d !important;
 	
 	
-	/*SIde baer links  , read me  LIcense   , activity    , CUstom properties */
-	a.Link--muted , 
-	span.color-fg-muted{
-		color : #98971A !important ; 
+	
+	
+	
+	
+	
+	/*ALL TEXT IN THE APP 	 */
+	--text-normal: #F7CDA2 !important;
+	
+	
+	
+	
+	
+	/* USER ProFILE gradient */
+/*  gradient upper and lower limit     */
+	--profile-gradient-primary-color: #689d6a !important;
+	--profile-gradient-secondary-color:#306745 !important;
+
+
+
+
+
+    .button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeLarge__9049d.grow__4c8a4 {
+		border-radius: 18px !important ; 
+  color: #d5c4a1 !important; /* Change the text color to red */
+  background-color: #9d0006 !important; /* Change the background color to blue */
+	
 	}
 	
 	
-	/*Releases side bar heading */
-	a.Link--primary.no-underline.Link{
-		color : #427B58 !important  ; 
-	}
-	
-	span.Label.Label--success.flex-shrink-0{
-		color : #B8BB26 !important ; 
-		border : solid #B8BB26 !important ; 
-		border-width: 0.1px !important; 
-	}
-	
-	
-	/*Releases page */
-	span.Counter{
-		color : #EBDBB2 !important ; 
-			background-color : #282828 !important ; 
-	}
 	
 	
 	
-	/*No packages published*/
-	div.text-small.color-fg-muted{
-		color  : #79740E !important ; 
-	}
 	
-	/* releases and contributros link*/
-	.Link {
-    color: #FB4934  !important ; 
-}
-	
-	
-	/*Repo Languages*/
-	span.color-fg-default.text-bold.mr-1{
-		color : #8EC07C !important ; 
-		font-weight: 500 !important ; 
-		font-size: 13px !important ; 
-	}
-	
-	
+	/* main styles reinstated here      */
+	--primary-500: #B8BB26 !important;
+	--primary-600: #dfdbc8 !important; 
+	--primary-630:  #3c3836 !important;
+	--primary-660: #17191b !important;
 
 	
 	
@@ -474,320 +1038,6 @@ a.color-fg-default{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	/*Files */
-	/*Repo Files */
-	
-	
-	/*Commit author name */
-	a.Link__StyledLink-sc-14289xe-0.fcwTtW{
-		color : #D79921 !important ; 
-	}
-	
-	/*Top bar COmmit ->Commit descruption */
-	/*repo commit -m messages*/
-	a.Link--secondary {
-
-	color: #79740E  !important ; 
-	}
-	
-	/*Repo Relative time -commit time color */
-	relative-time {
-
-	color : #427B58 !important ; 
-	}
-	
-	
-	
-	
-	/*Repo Commit number */
-	span.Text-sc-17v1xeu-0.UrHoN{
-		color : #D3869B !important ; 
-		
-	}
-	
-	/*Issue link*/
-	a.issue-link.js-issue-link{
-		color :#CC241D !important ; 
-	}
-	
-	
-	/*Repo files color */
-	a.Link--primary {
-    color:#FE8019 !important ; 
 }
-	
-	
-	
-	/*Universal style for links */
-	/*Main links on any page*/
-	a {
-		color : #FB4934 !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Readme Styles */
-	
-	
-	
-	/*Generic headings */
-	/*Title of the repo */
-	/*Add more Heading levels here too */
-	/**/
-	/**/
-	/**/
-	
-	h2 {
-		color : #FE8019 !important  ; 
-	}
-	
-	
-	
-	/*STrong text */
-	strong {
-		color : #B8BB26 !important ; 
-	}
-	
-	/*H3 inside markdown body */
-	.markdown-body h3 {
-color : #D79921 !important  ; 
-}
-	
-	
-	
-	p {
-		color : #F2E5BC !important ; 
-	}
-	
-	
-	/*List  , ordered and unorderes lists*/
-	li , ol  , ul {
-		color : #D5C4A1 !important ; 
-	}
-	
-	
-	/*List markets colors*/
-	li::marker {
-color : #FE8019 !important  ;
-	}
-	
-	
-	
-	
-	/*Inline code blocks*/
-	/*INline code body */
-	.markdown-body code, .markdown-body tt {
-    padding: .2em .4em;
-    margin: 0;
-    font-size: 85%;
-		
-    white-space: break-spaces;
-		color : #B8BB26 !important ; 
-    background-color: #1D2021 !important ; 
-    border-radius: 6px;
-}
-	
-	
-	/*H4 heaading */
-	h4{
-		color : #83A598 !important ; 
-	}
-	
-	
-	
-	/*Code blocks -> partial color for the block */
-.markdown-body .highlight {
-    background-color: #1A1B1D !important ; 
-    border-radius: 8px;
-}
-	
-	/*Code bloc*/
-	.markdown-body .highlight pre, .markdown-body pre {
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-
-    background-color:#1A1B1D !important ; 
-    border-radius: 6px;
-}
-	
-	
-	
-
-.react-blob-print-hide{
-    font-family: "Chivo Mono" , monospace !important;
-	font-weight: bold !important ; 
-    padding-left: 623px !important;
-    padding-right: 0px !important;
-    width: 100% !important;
-	color: yellow   !important ; 
-    background: none !important ; 
-    box-sizing: content-box;
-    position: relative;
-    border: none;
-    tab-size: 8;
-    outline: none;
-    overflow: auto hidden;
-    height: 22340px;
-
-    line-height: 20px !important;
-    white-space: normal !important ;
-}
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Code colors */
-	
-	/*langauge reserved keywords*/
-	span.pl-k{
-		color : #FB4934 !important ; 
-	}
-	
-	/*langauge Comments keywords*/
-		span.pl-c{
-		color : #928374 !important ; 
-	}
-	
-	/*NUmbers and methods */
-	span.pl-c1{
-		color : #FABD2F !important ; 
-		
-	}
-	
-	/*Strings in programming languages*/
-	span.pl-s{
-		color : #8EC07C !important  ; 
-	}
-	/*Arguments in programming languages*/
-	span.pl-smi{
-		color : #D3869B !important ; 
-	}
-	
-	/*Quotes and other punctuation */
-	span.pl-pds{
-		color : #D3869B !important ; 
-	}
-	
-	/*Applies TO non selvtable items in the code clors */
-	pre{
-		color : #B8BB26 !important  ; 
-	}
-	
-	/*Chnaged colors to native gruvbox*/
-	span.pl-e{
-		color  :#D3869B !important  ; 
-	}
-	
-	/*Json SYntax highlighting */
-	span.pl-ent{
-		color  : #8EC07C !important ; 
-	}
-	
-	/*Init.vim code block color */
-	span.pl-en{
-		color : #D3869B !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	/*Sumamry */
-	/*Drop down hidden section */
-	details summary {
-color : #E092BE !important ; 
-}
-	
-	
-	/*Quotes*/
-	blockquote{
-		background-color : #1D2021 !important ; 
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	/*Markdown Tables*/
-	/*Header for table*/
-	
-	th{
-		color : #689D6A !important ; 
-		background-color : #282828 !important ; 
-	}
-	
-	
-	
-	/*Conent of the table , , Td of table  */
-		td{
-		color : #689D6A !important ; 
-		background-color : #16181A !important ; 
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 
 }
