@@ -801,7 +801,7 @@ button.button_afdfd9 /* small buttons */,
 	--button-positive-background-active: #fb4934 !important;
 	--button-positive-background-disabled: #fb4934 !important;
 	--button-positive-background-hover: #fb4934 !important;
-	--button-secondary-background: #fb4934 !important;
+	
 	--button-secondary-background-active:#fb4934 !important;
 	--button-secondary-background-disabled:#fb4934 !important;
 	--button-secondary-background-hover:#fb4934 !important; */
@@ -951,7 +951,7 @@ button.button_afdfd9 /* small buttons */,
 
 /*HIghlight mention when some oen is mentioned in the server  */
 	div.message__80c10.cozyMessage__64ce7.mentioned__58017.wrapper__09ecc.cozy_f5c119.zalgo__39311{
-		background-color : #282828 !important ; 
+		background-color : #1d2021 !important ; 
 	}
 
 
@@ -1052,6 +1052,30 @@ button.button_afdfd9 /* small buttons */,
 	--redesign-only-background-sunken: #689d6a !important; */
 
 
+	
+	
+	/*Remove friend and block button -> Friend page buttons-> BACKGROUND*/
+	--button-secondary-background: #514e08 !important;
+	
+	/*Text inside the button */
+	.lookFilled__19298.colorPrimary__6ed40 {
+
+		fill: #98971a !important ; 
+   border-radius: 12px !important ; 
+}
+	/*Hover for the button*/
+	.lookFilled__19298.colorPrimary__6ed40:hover{
+    color: var(--white-500);
+    background-color: #fb4934 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
 	/*Pop up menu for the jump to new mesagges*/
 --background-accent: #9d0006 !important ; 
 
@@ -1113,8 +1137,8 @@ button.button_afdfd9 /* small buttons */,
 	
 	/* USER ProFILE gradient */
 /*  gradient upper and lower limit     */
-	--profile-gradient-primary-color: #689d6a !important;
-	--profile-gradient-secondary-color:#306745 !important;
+	--profile-gradient-primary-color: #16181a !important;
+	--profile-gradient-secondary-color:#282828 !important;
 
 
 
@@ -1173,7 +1197,7 @@ color : #83a598 !important ;
 	
 	
 	
-	
+		
 	
 	
 	
@@ -1185,7 +1209,11 @@ color : #83a598 !important ;
 	}
 	
 	
-	
+	/*Activity color of each person */
+	.pointerEvents__33f6a {
+
+		fill: #fb4934 !important ; 
+}
 	
 	
 	
