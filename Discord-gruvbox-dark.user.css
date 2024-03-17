@@ -664,10 +664,12 @@ button.button_afdfd9 /* small buttons */,
     }
 
 	a:visited {
-		color : #076678 !important ; 
+		color : #689d6a !important ; 
 	}
 
 
+	
+	
 
 /*     
 	--activity-card-background: black !important;;
@@ -716,10 +718,11 @@ button.button_afdfd9 /* small buttons */,
 
 /* Youtube emeddd	 */
 	article.embedWrapper_c143d9.embedFull__8dc21.embed_d3cbe3.markup_a7e664.justifyAuto__70e6c{
-		background-color : #f2e5bc !important ; 
+		background-color : #1d1b1a !important ; 
 		color : white !important ; 
 			border: solid #fb4934 !important ; 
-		border-radius: 12px !important ; 
+		border-width: 1px !important ; 
+		border-radius: 10px !important ; 
 	}
 
 /* Applies to background of discord waiting screen -> offline screen backgorund color 	 */
@@ -938,11 +941,11 @@ button.button_afdfd9 /* small buttons */,
 /*  MENTION names   */
 	span.mention.wrapper_f46140{
 
-	background-color :#16181a !important;
-	color : #fbe3da !important;
-		border: solid #b8bb26 !important ;
+	background-color :#17191b !important;
+	color : #83a598 !important;
+		border: solid #83a598 !important ;
 		border-width: 1px !important ; 
-		border-radius: 12px !important; 
+		border-radius: 5px !important; 
 
 	}
 
@@ -1153,13 +1156,40 @@ color : #83a598 !important ;
 
 /*Universal Time selection*/
 	time{
-		color : #98971a !important ; 
+		color : #83a598 !important ; 
 	}
 	
-	
+	/*Hover For Time*/
 	time:hover{
 		color : #fe8019 !important  ; 
 	}
+	
+	
+	/*All the usernames*/
+	.username_d30d99.desaturateUserColors_b72bd3.clickable_d866f1{
+		color : #b8bb26 !important ;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Redirect to link */
+	
+	div.linkCalloutContainer__8ff6e.thin__62e51.scrollerBase__2b744{
+		background: #16181a !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
