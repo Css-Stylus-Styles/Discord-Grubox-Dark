@@ -1218,6 +1218,25 @@ color : #83a598 !important ;
 	
 	
 	
+	/*SIngle Line Code Block */
+	.markup_a7e664 code {
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-indent: 0;
+    white-space: pre-wrap;
+    scrollbar-width: thin;
+		color : #f9f5d7 !important ; 
+    background: #16181a !important ;
+    border: 1px solid var(--background-tertiary);
+}
+
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
