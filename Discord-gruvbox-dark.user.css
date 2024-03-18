@@ -1115,12 +1115,12 @@ button.button_afdfd9 /* small buttons */,
 
 
 
-
+/*New Mention button*/
 	--status-danger:#9d0006 !important;
 
-	--status-danger-background:#cc241d !important;
+	--status-danger-background:#689d6a !important;
 
-	--status-danger-text:#cc241d !important;
+	--status-danger-text:#ffd29c !important;
 	
 	
 	
@@ -1231,13 +1231,19 @@ color : #83a598 !important ;
 }
 
 	
+	/*Messages cool down timer*/
+	.cooldownWrapper_de448f{
+		color : #8ec07c !important ; 
+	}
 	
+	/*Input box link text color*/
+	.fakeLink__57dfc {
+    color:#fb4934 !important ; 
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+}
 	
-	
-	
-	
-	
-	
+
 	
 	
 	
