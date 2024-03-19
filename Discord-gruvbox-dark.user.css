@@ -1244,7 +1244,35 @@ color : #83a598 !important ;
 }
 	
 
+	/*@ ON Button*/
+	.text-sm-bold__33e9d.mentionButton_a470c4{
+		color : #fabd2f !important ; 
+	}
 	
+	/*Messaging mention  name of the person you are mentiooning  */
+	.name__4c9aa.username_d272d6.desaturateUserColors_b72bd3 {
+  color: #b16286 !important;
+}
+
+	/*Create thread */
+	.text-sm-semibold__41578.createThreadButton__0060d{
+		color : #98971a !important ; 
+	}
+	
+	/*Thread messages inside */
+	span.cta__52756{
+		color : #fb4934 !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	/*Video upload progress color */
+	.progressBar__47525.small_f53288.animating_affaf1{
+		background: #fe8019 !important ; 
+	}
 	
 	
 	
