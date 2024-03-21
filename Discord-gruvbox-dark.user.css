@@ -1343,6 +1343,11 @@ color : #83a598 !important ;
   filter: hue-rotate(2342deg) !important ; /* Change this to the filter you want */
 }
 
+	/*Icon color when teh aiudio is playing */
+	.playIcon_e14cf9 {
+  color: #ffd29c !important ; /* Change this to the color you want */
+}
+
 	
 	
 	
