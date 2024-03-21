@@ -1331,9 +1331,18 @@ color : #83a598 !important ;
   
 }
 	
+	/*When The Audio is playing*/
+	.ripple__74f0d {
+ 
+    background-color: #514e08 !important ; 
+
+}
 	
-	
-	
+	/*Audio is playing the background color change*/
+	.waveform_fd5599 {
+  filter: hue-rotate(40deg) !important ; /* Change this to the filter you want */
+}
+
 	
 	
 	
