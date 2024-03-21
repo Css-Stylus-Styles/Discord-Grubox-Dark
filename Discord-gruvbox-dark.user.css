@@ -942,8 +942,8 @@ button.button_afdfd9 /* small buttons */,
 	span.mention.wrapper_f46140{
 
 	background-color :#17191b !important;
-	color : #83a598 !important;
-		border: solid #ffd19a7d !important ;
+	color : #fabd2f !important;
+		border: solid #fe8019b0 !important ;
 		border-width: 1px !important ; 
 		border-radius: 5px !important; 
 
@@ -1274,10 +1274,75 @@ color : #83a598 !important ;
 		background: #fe8019 !important ; 
 	}
 	
+	/*Bold text inside the document */
+	strong{
+		color : #8ec07c !important ; 
+	}
+	
+	
+	/*New Unreads Button*/
+	
+	.bar__004d9{
+		background: #fbf1c7 !important ; 
+	}
+	
+	.text-xs-semibold_a3a2b4.barText__1a44f{
+		color : #327a4e !important ; 
+	}
+	
+
+	.divider__8cf56.hasContent__8519e.divider_b9338f.hasContent_fea365{
+
+		color : red !important ; 
+		fill: white !important ; 
+		background: green !important ;
+	}
 	
 	
 	
 	
+	
+	
+	
+	/*Audio related styles*/
+	
+	.waveform_fd5599{
+		fill: red !important ; 
+		
+	}
+	
+	/*Play button background color*/
+.playButtonContainer_d887d6 {
+ background: #537646 !important ; 
+ 
 }
+		/*Play button background color*/
+.playButtonContainer_d887d6:hover{
+ background: #514e08 !important ; 
+	transition-delay: 0.2s !important ; 
+
+ 
+}
+	
+	/*Audio (voicenote) play suraton */
+	.duration__81a34 {
+
+    color: #fe8019 !important ;
+  
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
 
 }
