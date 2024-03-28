@@ -1,5 +1,4 @@
 
-
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
@@ -1365,8 +1364,10 @@ color : #83a598 !important ;
 		background: #cc241d !important  ; 
 }
 	
-	
-	
+	/*Top  Left discord icon*/
+	div.childWrapper_a6ce15{
+		background: #537646 !important ; 
+	}
 	
 	
 	
