@@ -1,4 +1,5 @@
 
+
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
@@ -1349,9 +1350,46 @@ color : #83a598 !important ;
 
 	
 	
+	/*Send Message -> send the message inside the channel  */
+	
+	/*  Message CHannel*/
+	.scrollableContainer_ff917f.themedBackground__3a4c0.webkit__8d35a{
+		background: #16181a !important  ; 
 	
 	
 	}
+	
+	/*Side Bar background color*/
+	.scroller_de945b {
+    
+		background: #cc241d !important  ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
