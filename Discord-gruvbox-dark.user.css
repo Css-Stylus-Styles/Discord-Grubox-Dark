@@ -939,7 +939,7 @@ button.button_afdfd9 /* small buttons */,
 
 
 /*  MENTION names   */
-	span.mention.wrapper_f46140{
+	span.mention{
 
 	background-color :#17191b !important;
 	color : #fabd2f !important;
@@ -1209,11 +1209,7 @@ color : #83a598 !important ;
 	}
 	
 	
-	/*Activity color of each person */
-	.pointerEvents__33f6a {
 
-		fill: #fb4934 !important ; 
-}
 	
 	
 	
@@ -1378,8 +1374,27 @@ color : #83a598 !important ;
 	
 	/*Online indicator*/
 	.pointerEvents__585e6 {
-		fill: #98971a !important ; 
+		fill: #fb4934 !important ; 
 	}
+	
+	
+	
+	
+	/*Text Inside Code block in the chat*/
+	/*Code Block*/
+	.markup_a7e664 code {
+    line-height: 1.125rem;
+    white-space: pre-wrap;
+    scrollbar-width: thin;
+    color: #fe8019 !important;
+    background: #16181a !important;
+    border: 1px solid #514e08 !important;
+	border-radius: 8px !important ; 
+		
+}
+	
+	
+	
 	
 	
 	}
