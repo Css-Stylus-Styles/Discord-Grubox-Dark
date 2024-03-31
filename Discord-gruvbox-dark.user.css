@@ -1193,8 +1193,10 @@ color : #83a598 !important ;
 	.username_d30d99.desaturateUserColors_b72bd3.clickable_d866f1{
 		color : #b8bb26 !important ;
 	}
-	
-	
+	/*Redunant but applies to the uper style well*/
+	.username__0b0e7.desaturateUserColors_eb6bd2.clickable__09456{
+		color: #b8bb26 !important ; 
+	}
 	
 	
 		
@@ -1367,7 +1369,8 @@ color : #83a598 !important ;
 	
 	
 	
-/*Message Reply Higlight color*/	div.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311.hasReply__602e2{
+/*Message Reply Higlight color*/	
+	div.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311{
 		
 		background: #1d2021 !important ; 
 	}
