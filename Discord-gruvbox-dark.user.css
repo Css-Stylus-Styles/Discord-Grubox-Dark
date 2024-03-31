@@ -194,10 +194,10 @@
 	background: none;
 }
 .selected__0b1ad .header__104ca, .clickable__2d589 .header__104ca:hover /* server name hover */ {
-	background: var(--message-hover);
+	background: white !important;
 }
 .message__80c10.replying_d7b6ad.selected_fd9051, .mouse-mode.full-motion .replying_d7b6ad:hover /* fix reply message hover */ {
-	background: var(--background-message-highlight-hover);
+	background: white !important;
 }
 div.message__80c10.replying_d7b6ad::before /* change reply message bar to neutral */ {
 	background: var(--text-2);
@@ -664,7 +664,7 @@ button.button_afdfd9 /* small buttons */,
     }
 
 	a:visited {
-		color : #689d6a !important ; 
+		color : #b8bb26 !important ; 
 	}
 
 
@@ -718,12 +718,17 @@ button.button_afdfd9 /* small buttons */,
 
 /* Youtube emeddd	 */
 	article.embedWrapper_c143d9.embedFull__8dc21.embed_d3cbe3.markup_a7e664.justifyAuto__70e6c{
-		background-color : #1d1b1a !important ; 
 		color : white !important ; 
 			border: solid #fb4934 !important ; 
 		border-width: 1px !important ; 
+		border-radius: 12px !important ; 
+	}
+
+	.gridContainer_e31d85{
+		background: #16181a !important ; 
 		border-radius: 10px !important ; 
 	}
+	
 
 /* Applies to background of discord waiting screen -> offline screen backgorund color 	 */
 	--background-secondary: #282828 !important;
@@ -1407,6 +1412,22 @@ color : #83a598 !important ;
 		background: #fb4934 !important ; 
 	}
 	
+	/*Message that is being replied to */
+	
+	/*Reply message bacground hightlight */
+	
+	.replying__38514, .highlighted_fc800f {
+    position: relative;
+    background: #282828 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+
 	
 	
 	
