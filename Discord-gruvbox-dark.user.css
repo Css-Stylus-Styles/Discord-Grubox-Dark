@@ -736,10 +736,23 @@ button.button_afdfd9 /* small buttons */,
 /* 	--background-tertiary: #1d2021 !important; */
 
 
+	
+	
+	
+	/*Red Sidebaar*/
+	
 /* LEft hand most side channel sidebar	 */
     #app-mount .scroller__3d071 {
 		background-color : #cc241d !important; 
     padding: 12px 0;
+}
+	
+		/*Sidebar numbers*/
+	/*Server messagees number*/
+	.numberBadge__40d6f.base__5ed84.eyebrow_c15ff6.baseShapeRound_c1de89{
+ 
+		color: #fbf1c7 !important ;
+		background: #cc241d !important ; 
 }
 
 /* 	--bg-backdrop: #98971a !important;
@@ -1248,9 +1261,16 @@ color : #83a598 !important ;
 	
 
 	/*@ ON Button*/
-	.text-sm-bold__33e9d.mentionButton_a470c4{
-		color : #fabd2f !important ; 
+	div.text-sm-bold__6ec17.mentionButton__73096{
+		color : #fe8019 !important ; 
 	}
+	
+	
+	
+
+	
+	
+	
 	
 	/*Messaging mention  name of the person you are mentiooning  */
 	.name__4c9aa.username_d272d6.desaturateUserColors_b72bd3 {
