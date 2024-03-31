@@ -1296,6 +1296,12 @@ color : #83a598 !important ;
 	}
 	
 	
+	/*Date  in the chat*/
+	span.content__7191e{
+		color: #f57d26 !important ; 
+		background: #282828 !important ; 
+		padding: 2px 20px !important  ; 
+	}
 	
 	
 	
@@ -1395,6 +1401,12 @@ color : #83a598 !important ;
 	border-radius: 8px !important ; 
 		
 }
+	
+	/*Side bar line in the reply button*/
+	.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311::before{
+		background: #fb4934 !important ; 
+	}
+	
 	
 	
 	
