@@ -1460,7 +1460,7 @@ color : #83a598 !important ;
     color: var(--mention-foreground);
     background: var(--mention-background);
 		
-		border: solid 1px #8ec07c  !important ;
+		border: solid 1px #8ec07cb0  !important ;
 		border-radius: 6px !important ; 
 		padding: 1px 10px !important ; 
 }
