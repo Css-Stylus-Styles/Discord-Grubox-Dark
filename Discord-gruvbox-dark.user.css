@@ -1453,14 +1453,16 @@ color : #83a598 !important ;
 	/*Channel name mention inside the chat*/
 	/*CHannel name mentions*/
 	.wrapper__53064 {
-    border-radius: 3px;
-    padding: 0 2px;
     font-weight: 500;
 		font-kerning: auto !important ; 
 		font-family:  "CommitMono",  monospace !important ; 
 		font-size: 0.9rem !important ;
     color: var(--mention-foreground);
     background: var(--mention-background);
+		
+		border: solid 1px #8ec07c  !important ;
+		border-radius: 6px !important ; 
+		padding: 1px 10px !important ; 
 }
 	
 	
