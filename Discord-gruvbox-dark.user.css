@@ -1103,7 +1103,7 @@ button.button_afdfd9 /* small buttons */,
 --background-accent: #f00 !important ; 
 
 	
-	/*New channel hastaga icon*/
+	/*New channel Hashtag icon*/
 	/*CHannel hastag sign background*/
 	.emptyChannelIcon_d45c50 {
 		/*Made the icon shorter as well*/
@@ -1113,6 +1113,17 @@ button.button_afdfd9 /* small buttons */,
     border-radius: 50%;
     background-color: #537646 !important ;
 }
+	
+	
+	
+	/*Channel name contrainer */
+	.container__26baa:hover{
+background: #16181a !important;
+}
+	
+	
+	
+	
 	
 
 /*Applies to buttons mostly */
