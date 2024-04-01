@@ -1100,8 +1100,20 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 	/*Pop up menu for the jump to new mesagges*/
---background-accent: #9d0006 !important ; 
+--background-accent: #f00 !important ; 
 
+	
+	/*New channel hastaga icon*/
+	/*CHannel hastag sign background*/
+	.emptyChannelIcon_d45c50 {
+		/*Made the icon shorter as well*/
+    width: 55px;
+    height: 55px;
+    margin-top: 16px;
+    border-radius: 50%;
+    background-color: #537646 !important ;
+}
+	
 
 /*Applies to buttons mostly */
 	--white-500: #ffd29c !important ; 
