@@ -1100,7 +1100,8 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 	/*Pop up menu for the jump to new mesagges*/
---background-accent: #f00 !important ; 
+	/*Applies to Side bar that i know of */
+--background-accent: #cc241d !important ; 
 
 	
 	/*New channel Hashtag icon*/
@@ -1116,7 +1117,7 @@ button.button_afdfd9 /* small buttons */,
 	
 	
 	
-	/*Channel name contrainer */
+	/*Channel name contrainer HHOVER */
 	.container__26baa:hover{
 background: #16181a !important;
 }
@@ -1363,7 +1364,7 @@ color : #83a598 !important ;
 	/*Audio related styles*/
 	
 	.waveform_fd5599{
-		fill: red !important ; 
+		fill: #f00 !important ; 
 		
 	}
 	
@@ -1494,18 +1495,42 @@ color : #83a598 !important ;
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Jump TO pressent bar */
+	/*bars and other things colors*/
+	.jumpToPresentBar__69174 {
+    bottom: 0;
+    border-radius: 6px 6px 8px 8px !important;
+    background-color:#4a6c3e !important ; 
+    opacity: 1;
+    padding-bottom: 8px;
+}
+	
+	
+	
+	.barButtonBase__5e4cf {
+    text-align: left;
+    background: none;
+    color: var(--white-500);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight:500;
+    font-size: 14px !important;
+		font-family: "Harding Text Web Regular" !important ; 
+}
+	
+	
+	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
