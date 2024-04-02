@@ -1101,7 +1101,7 @@ button.button_afdfd9 /* small buttons */,
 	
 	/*Pop up menu for the jump to new mesagges*/
 	/*Applies to Side bar that i know of */
---background-accent: #cc241d !important ; 
+--background-accent: #4a6c3e !important ; 
 
 	
 	/*New channel Hashtag icon*/
@@ -1514,19 +1514,22 @@ color : #83a598 !important ;
     padding-bottom: 8px;
 }
 	
-	
-	
+
+	/*JumP tp presnet text style*/
 	.barButtonBase__5e4cf {
-    text-align: left;
-    background: none;
     color: var(--white-500);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    font-weight:500;
     font-size: 14px !important;
 		font-family: "Harding Text Web Regular" !important ; 
 }
+	
+	
+	
+	
+	.embedWrapper__47b23 {
+  border-color: #b8bb26 !important;
+}
+	
+	
 	
 	
 	
