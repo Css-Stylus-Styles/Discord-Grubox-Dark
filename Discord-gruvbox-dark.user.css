@@ -724,12 +724,28 @@ button.button_afdfd9 /* small buttons */,
 		border-radius: 12px !important ; 
 	}
 
+	
+	
+	/*Embeedd background colors*/
 	.gridContainer_e31d85{
-		background: #16181a !important ; 
+		background: #282828 !important ; 
 		border-radius: 10px !important ; 
 	}
 	
 
+		
+	/*Youtube EMbedd side bar color*/
+	.embedWrapper__47b23 {
+  border-color: #83a598 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
 /* Applies to background of discord waiting screen -> offline screen backgorund color 	 */
 	--background-secondary: #282828 !important;
 /* actual side bar color      */
@@ -1328,7 +1344,7 @@ color : #83a598 !important ;
 	
 	/*Bold text inside the document */
 	strong{
-		color : #8ec07c !important ; 
+		color : #fe8019 !important ; 
 	}
 	
 	
@@ -1523,12 +1539,7 @@ color : #83a598 !important ;
 }
 	
 	
-	
-	
-	.embedWrapper__47b23 {
-  border-color: #b8bb26 !important;
-}
-	
+
 	
 	
 	
