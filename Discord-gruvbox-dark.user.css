@@ -1539,8 +1539,12 @@ color : #83a598 !important ;
 }
 	
 	
-
 	
+/*Side bar online div background color*/
+	div.container_debb33{
+		color: white !important ; 
+		background: #282828 !important ; 
+	}
 	
 	
 	
