@@ -868,10 +868,10 @@ button.button_afdfd9 /* small buttons */,
 
 /* Channel input area 	 */
 
-	div.scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a{
+	div.scrollableContainer_ff917f.themedBackground__3a4c0{
 
 		background-color : #1a1b1d !important ; 
-		border : solid #f2e5bc !important ; 
+		border : solid #79740e !important ; 
 		border-width: 1px !important ; 
 		border-radius: 23px !important ; 
 	}
@@ -1551,11 +1551,10 @@ color : #83a598 !important ;
 	}
 	
 	
-	
-	
-	
-	
-	
+/*Side bar div MIcrophone  , headphones an dsettings div*/
+	.lottieIcon_c7076c svg path {
+  fill: #98971a !important;
+}
 	
 	
 
