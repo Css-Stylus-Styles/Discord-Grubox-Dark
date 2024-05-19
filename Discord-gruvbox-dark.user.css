@@ -1,4 +1,5 @@
 
+
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
@@ -1444,12 +1445,15 @@ color : #83a598 !important ;
 	}
 	
 	
+
+	/*Mention replies */
+	.mentioned_fa6fd2 {
+    position: relative;
+    background: #282828 !important ;
+}
 	
-/*Message Reply Higlight color*/	
-	div.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311{
-		
-		background: #1d2021 !important ; 
-	}
+	
+	
 	
 	/*Online indicator*/
 	.pointerEvents__585e6 {
@@ -1559,3 +1563,4 @@ color : #83a598 !important ;
 	
 
 }
+
