@@ -1,5 +1,4 @@
 
-
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
@@ -659,6 +658,7 @@ button.button_afdfd9 /* small buttons */,
 
     a{
         color:#fb4934 !important;
+		   transition: color 0.5 ease-in-out !important ; 
     }
        a:hover{
         color:#b8bb26 !important;
@@ -688,14 +688,18 @@ button.button_afdfd9 /* small buttons */,
 
 
 
+	
+	
+	
 
 
 /*  message serperator color -> date serperstalign-contentr   */
 	--background-modifier-accent:#282828 !important;
 
 
-
-
+/*Online indicator */
+	/*activity indicator */
+	--online-indicator: #b8bb26 !important ; 
 
 
 
@@ -762,6 +766,11 @@ button.button_afdfd9 /* small buttons */,
     #app-mount .scroller__3d071 {
 		background-color : #cc241d !important; 
     padding: 12px 0;
+}
+	
+	.scroller_fea3ef {
+   color:black !important;
+		background-color:#cc241d !important;
 }
 	
 		/*Sidebar numbers*/
@@ -1180,7 +1189,7 @@ background: #16181a !important;
 
 
 /*New Mention button*/
-	--status-danger:#9d0006 !important;
+	--status-danger:#cc241d !important;
 
 	--status-danger-background:#689d6a !important;
 
@@ -1381,7 +1390,7 @@ color : #83a598 !important ;
 	/*Audio related styles*/
 	
 	.waveform_fd5599{
-		fill: #f00 !important ; 
+		fill: #fb4934 !important ; 
 		
 	}
 	
@@ -1422,6 +1431,13 @@ color : #83a598 !important ;
   color: #ffd29c !important ; /* Change this to the color you want */
 }
 
+	/*media bar when you send an audio to some channel */
+	div.mediaBarProgress_f7877e.fakeEdges_f7877e{
+		background-color:#98971a !important;
+		
+	}
+	
+	
 	
 	
 	/*Send Message -> send the message inside the channel  */
@@ -1436,7 +1452,7 @@ color : #83a598 !important ;
 	/*Side Bar background color*/
 	.scroller_de945b {
     
-		background: #cc241d !important  ; 
+		background: #fe8019 !important  ; 
 }
 	
 	/*Top  Left discord icon*/
@@ -1460,7 +1476,7 @@ color : #83a598 !important ;
 		fill: #fb4934 !important ; 
 	}
 	
-	
+
 	
 	
 	/*Text Inside Code block in the chat*/
@@ -1559,6 +1575,38 @@ color : #83a598 !important ;
 	.lottieIcon_c7076c svg path {
   fill: #98971a !important;
 }
+	
+	
+	
+	
+	
+	/*Autocomplete background inside the dialogue box where you enter commands*/
+	/*slash commands autocomplete */
+	div.clickable__0b25f.autocompleteRowVertical__90217.autocompleteRow__2a1b9{
+		background-color:#537646 !important;
+	}
+	
+	
+	
+/*chanel input area */
+	.themedBackground_d0696b {
+    background: #16181a !important; 
+		border: solid 1px #514e08 !important ; 
+}
+	
+	
+		.themedBackground_d0696b:hover {
+    background: #1d2021 !important; 
+			transition: background 0.4s ease-in-out !important ; 
+		border: solid 1px #514e08 !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 
