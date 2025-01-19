@@ -1,9 +1,10 @@
 
 
+
 /* ==UserStyle==
 @name           discord.com - Dec 2023
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -1838,7 +1839,12 @@ color : #83a598 !important ;
 	
 	
 	
-	
+	/*Baackgorund for the forum discusons*/
+	/*Discord FOrums Discussons*/
+	.list_a6d69a>div:first-child {
+background: #1d1b1a !important ; 
+		
+}
 	
 	
 	
@@ -1874,4 +1880,5 @@ color : #83a598 !important ;
 	
 
 }
+
 
